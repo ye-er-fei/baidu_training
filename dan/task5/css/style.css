@@ -1,0 +1,224 @@
+.layout
+{
+	width: 1280px;
+	padding: 0;
+	margin: 0 auto;
+}
+.header
+{
+	height: 60px;
+	width: 100%;
+	background: #333;
+}
+.logo
+{
+	width: 135px;
+	height: 60px;
+	margin: 0 50px;
+	display: block;
+	float: left;
+}
+.logo img
+{
+	width: 100%;
+}
+.hearder-nav li
+{
+	float: left;
+	margin: 0 20px;
+	line-height: 60px;
+}
+.hearder-nav li a
+{
+	color: #fff;
+}
+.hearder-nav li a:hover
+{
+	color: #aaa;
+}
+.hearder-nav ul
+{
+	float: right;
+}
+.content-left
+{
+	width: 855px;	
+	
+	float: left;
+	margin-left:15px;
+	margin-right:15px;
+	margin-bottom:15px;
+	 
+
+}
+.cont-b
+{
+	border: 1px solid #ccc;
+	background: #fff;
+	box-shadow: 3px 3px #ccc;
+	border-radius:3px;
+	min-height: 600px;
+	margin-top: 15px;
+	padding: 15px;
+}
+.content-right
+{
+	width: 370px;
+	min-height:500px;
+	border: 1px solid #ccc;
+	float: left;
+	margin-top:15px;
+	margin-right:15px;
+	background: #fff;
+	box-shadow: 3px 3px #ccc;
+	border-radius:3px; 
+}
+.content
+{
+	background: #dedede;
+	float: left;
+	width: 100%;
+}
+.title h2 {
+    line-height: 38px;
+}
+
+.title > p {
+    color: #84817f;
+    font-size: 14px;
+    line-height: 30px;
+}
+.title small {
+    color: #aaa;
+    line-height: 30px;
+}
+.details img
+{
+	margin:15px 0;
+}
+.details > p {
+    color: #323333;
+    line-height: 30px;
+    text-indent: 2em;
+}
+.details a
+{
+	color: #f30f0f;
+}
+.details a:hover
+{
+	color: #cf6e18;
+}
+.pic-item
+{
+	border: 1px solid #aaa;
+	width: 129px;
+	height: 129px;
+	float: left;
+	margin: 15px;
+	padding: 5px;
+}
+.pic-item p
+{
+	text-align: center;
+	padding: 5px;
+}
+.pic-item img
+{
+	width: 100%;
+}
+.cont-b table {
+    border: 1px solid #aaa;
+    width: 800px;
+}
+.cont-b td,.cont-b th{
+    border-color: #aaa;
+    padding: 5px;
+}
+.cont-table
+{
+	margin: 15px 0;
+
+}
+.cont-table h2
+{
+	line-height: 38px;
+}
+.cont-table table tr:first-child 
+{
+	background:  #333;
+	color: #fff;
+}
+.cont-table table tr:last-child 
+{
+	background: #ccc;
+}
+.left-col {
+    border-left: 3px solid #aaa;
+    font-size: 25px;
+    height: 50px;
+    line-height: 50px;
+    margin: 10px auto;
+    padding: 0 20px;
+    width: 300px;
+}
+.b-q {
+    display: block;
+    float: left;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: right;
+    width: 120px;
+}
+.col-d
+{
+	width: 320px;
+	margin: 20px auto;
+}
+.col-d p {
+    clear: both;
+    font-size: 14px;
+    line-height: 30px;
+    margin:10px 0;
+}
+
+.col-d input {
+    padding: 5px 24px;
+}
+
+.col-d .b-z {
+    color: #aaa;
+    float: right;
+}
+.btn-tj {
+    background:#3355d0 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 3px;
+    color: #fff;
+    height: 35px;
+    margin-left: 37px;
+    margin-top: 30px;
+    width: 260px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.footer
+{
+	height: 60px;
+	width: 100%;
+	background: #333;
+	clear: both;
+}
+.footer p
+{
+	text-align: center;
+	color: #fff;
+	line-height: 60px;
+
+
+}
