@@ -1,0 +1,814 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>task9</title>
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/select2.css" rel="stylesheet">
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	  <!--[if lt IE 9]>
+	  <script src="js/html5shiv.js"></script>
+	  <script src="js/respond.min.js"></script>
+	  <![endif]-->
+	
+</head>
+
+
+<body>
+	<div class="headerbar">
+		<img src="images/logo.png">
+		<div class="headright">
+			<input class="form-control" name="keyword" placeholder="Search here..." type="text">
+			<button type="button"><i class="glyphicon glyphicon-user" style="margin-right:10px"></i>登陆</button>			
+		</div>
+	</div>
+	<div class=" main">
+		<div class="main-left">
+			<div class="title clearfix">
+				<h1>
+					<div class="t-img"><img src="images/h-icon.jpg"></div>
+					<span>wdan</span>
+				</h1>
+				<ul>
+					<li>
+						<span>110</span><br>
+						<span>收藏</span>
+					</li>
+					<li></li>
+					<li>
+						<span>130</span><br>
+						<span>粉丝</span>
+					</li>
+				</ul>
+			</div>
+			<div class="m-l-nav clearfix">
+				<ul>
+					<li class="nav-parent active">
+						<a href="">
+						<span class="glyphicon glyphicon-folder-open"></span><span>个人报表</span>
+						</a>
+			            <ul class="children">
+			                <li><a href=""><span class="glyphicon glyphicon-folder-close"></span> 文件一</a></li>
+			                <li class="active">
+			                	<a href=""><span class="glyphicon glyphicon-folder-close"></span>文件二</a>
+			                	<ul>
+			                		<li class="active"><a href=""><span class="glyphicon glyphicon-file"></span> 文档一</a></li>
+			                		<li><a href=""><span class="glyphicon glyphicon-file"></span>文档二</a></li>
+			                	</ul>
+
+			                </li>
+			                <li><a href=""><span class="glyphicon glyphicon-folder-close">文件三</span></a></li>
+			            </ul>
+			        </li>
+					<li class="nav-parent">
+						<a href="">
+						<span class="glyphicon glyphicon-star"></span><span>个人收藏</span>
+						</a>
+						
+					</li>
+					<li class="nav-parent">
+						<a href="">
+						<span class="glyphicon glyphicon-map-marker"></span><span>我的分享</span>
+						</a>
+						
+					</li>
+					<li class="nav-parent">
+						<a href="">
+						<span class="glyphicon glyphicon-picture"></span><span>图库</span>
+						</a>
+						
+					</li>
+					<li class="nav-parent">
+						<a href="">
+						<span class="glyphicon glyphicon-star"></span><span>成长记录</span>
+						</a>
+						
+					</li>
+					<li class="nav-parent">
+						<a href="">
+						<span class="glyphicon glyphicon-user"></span><span>账户信息</span>
+						</a>
+						
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="main-right">
+			<div class="pageheader"> 
+		      <div class="breadcrumb-wrapper">			       
+		        <ol class="breadcrumb">
+		          <li><a href="">home</a></li>
+		          <li><a href="">个人报表</a></li>
+		          <li><a href="">文件二</a></li>
+		          <li class="active">文档一</li>
+		        </ol>
+		      </div>
+		    </div>
+		    <div class="m-r-content">
+		    	<div class="r-panel-bg r-panel">
+		    		<div class="form-group fg">
+			    		<div class="x-item1 ">
+			    			<span>查询项：</span>
+			    			<div class="select2-container select2" id="s2id_autogen1">
+			    				
+			    				<a href="" class="select2-choice select2-default" tabindex="-1">   
+			    					<span class="select2-chosen" id="select2-chosen-2">第一项</span>
+			    					<abbr class="select2-search-choice-close"></abbr>   
+			    					<span class="select2-arrow" role="presentation">
+			    						<b role="presentation"></b>
+			    					</span>
+			    				</a>		    		
+			    			</div>
+			    		</div>
+		    		</div>
+		    		<div class=" form-group fg">
+		    			<div class="change-img"><a href=""></a></div>
+		    			<div class="x-item1">
+		    			
+			    			<span>买方:</span>
+			    			<div class="select2-container select2" >
+			    				
+			    				<a href="" class="select2-choice select2-default" tabindex="-1">   
+			    					<span class="select2-chosen" >小A</span>
+			    					<abbr class="select2-search-choice-close"></abbr>   
+			    					<span class="select2-arrow" role="presentation">
+			    						<b role="presentation"></b>
+			    					</span>
+			    				</a>		    		
+			    			</div>
+		    			</div><br>
+		    			<div class="x-item1">	
+			    			<span>卖方:</span>
+			    			<div class="select2-container select2"  style="float:left">
+			    				
+			    				<a href="" class="select2-choice select2-default" tabindex="-1">   
+			    					<span class="select2-chosen">小C</span>
+			    					<abbr class="select2-search-choice-close"></abbr>   
+			    					<span class="select2-arrow" role="presentation">
+			    						<b role="presentation"></b>
+			    					</span>
+			    				</a>		    		
+			    			</div>
+			    		</div>
+		    		</div>
+		    		<div class=" form-group fg">
+		    			<div class="x-item1">	
+							<span>日期:</span>
+							<div class="select2-container select2"  style="float:left">
+								
+								<a href="" class="select2-choice select2-default" tabindex="-1">   
+									<span class="select2-chosen" >2016-03-22</span>
+									<abbr class="select2-search-choice-close"></abbr>   								
+								</a>		    		
+							</div>&nbsp;&nbsp;&nbsp;
+							<span>总耗时:</span>
+							<div class="select2-container select2"  style="float:left">
+								
+								<a href="" class="select2-choice select2-default" tabindex="-1">   
+									<span class="select2-chosen" >8天</span>
+									<abbr class="select2-search-choice-close"></abbr>   
+									<span class="select2-arrow" role="presentation">
+										<b role="presentation"></b>
+									</span>
+								</a>		    		
+							</div>
+						</div><br>
+						<div class="x-item1">
+							<span>人数:</span>
+							<div class="select2-container select2"  style="float:left">
+								
+								<a href="" class="select2-choice select2-default" tabindex="-1">   
+									<span class="select2-chosen" >10人</span>
+									<abbr class="select2-search-choice-close"></abbr>   
+									<span class="select2-arrow" role="presentation">
+										<b role="presentation"></b>
+									</span>
+								</a>		    		
+							</div>&nbsp;&nbsp;&nbsp;
+							<span>成交项:</span>
+							<div class="select2-container select2"  style="float:left">
+								
+								<a href="" class="select2-choice select2-default" tabindex="-1">   
+									<span class="select2-chosen" >10项</span>
+									<abbr class="select2-search-choice-close"></abbr>   
+									<span class="select2-arrow" role="presentation">
+										<b role="presentation"></b>
+									</span>
+								</a>		    		
+							</div>
+						</div>
+		    		</div>
+		    		<div class=" form-group fg">
+		    			<div class="x-item1">
+		    				<a class="btn btn-primary">搜索</a>
+		    			</div>
+		    		</div>
+		    	</div>
+		    	<div class="r-panel">
+					<ul class="r-h-s">
+						<li class="left-btn"><a href=""></a></li>
+						<li class="active">
+							<div class="h-s">
+								<ul>
+									<li><label>10:00 am</label></li>
+									<li class="s-c">￥<span>1200</span></li>
+								</ul>	
+							</div>
+						</li>
+						<li>
+							<div class="h-s">
+								<ul>
+									<li><label>10:00 am</label></li>
+									<li class="s-c">￥<span>1200</span></li>
+								</ul>	
+							</div>
+						</li>
+						<li>
+							<div class="h-s">
+								<ul>
+									<li><label>10:00 am</label></li>
+									<li class="s-c">￥<span>1200</span></li>
+								</ul>	
+							</div>
+						</li>
+						<li>
+							<div class="h-s">
+								<ul>
+									<li><label>10:00 am</label></li>
+									<li class="s-c">￥<span>1200</span></li>
+								</ul>	
+							</div>
+						</li>
+						<li>
+							<div class="h-s">
+								<ul>
+									<li><label>10:00 am</label></li>
+									<li class="s-c">￥<span>1200</span></li>
+								</ul>	
+							</div>
+						</li>
+						<li>
+							<div class="h-s">
+								<ul>
+									<li><label>10:00 am</label></li>
+									<li class="s-c">￥<span>1200</span></li>
+								</ul>	
+							</div>
+						</li>
+						<li class="right-btn"><a href=""></a></li>
+						<li class="ri-li-b">
+							<div class="h-s">
+								<ul>
+									
+									<li class="rili"><a href=""><img src="images/r-l.png">历史查询</a></li>
+								</ul>	
+							</div>
+						</li>
+					</ul>
+		    	</div>
+		    	<div class="r-panel">
+		    		<p>2016年4月份统计</p>
+		    		<ul class="r-t-j">
+		    			<li class="g-c">
+		    				<div class="t-j">
+		    					<div class="t-j-l">
+		    						<label>133311</label><br>
+		    						<span>成交量</span>
+		    					</div>
+		    					<div class="t-j-g"></div>
+		    				</div>
+		    			</li>
+		    			<li class="b-c">
+		    				<div class="t-j">
+		    					<div class="t-j-l">
+		    						<label>133311</label><br>
+		    						<span>成交量</span>
+		    					</div>
+		    					<div class="t-j-b"></div>
+		    				</div>
+		    			</li>
+		    			<li class="r-c">
+		    				<div class="t-j">
+		    					<div class="t-j-l">
+		    						<label>133311</label><br>
+		    						<span>成交量</span>
+		    					</div>
+		    					<div class="t-j-r"></div>
+		    				</div>
+		    			</li>
+		    			<li class="y-c">
+		    				<div class="t-j">
+		    					<div class="t-j-l">
+		    						<label>133311</label><br>
+		    						<span>成交量</span>
+		    					</div>
+		    					<div class="t-j-y"></div>
+		    				</div>
+		    			</li>
+		    		</ul>
+		    	</div>
+		    	<div class="r-panel ">
+		    		<div class="col-md-6">
+		    			<div class="panel panel-default">
+		    				<div class="panel-heading">
+		    					<h3 class="panel-title">第一组项目</h3>
+		    				</div>
+		    				<div class="panel-body">
+		    					<div class="tab">
+		    						<ul>
+		    							<li class="active"><a href="">项目一</a></li>
+		    							<li><a href="">项目一</a></li>
+		    							<li><a href="">项目一</a></li>
+		    							<li><a href="">项目一</a></li>
+		    						</ul>
+		    					</div>
+		    					<div class="tab-body">
+		    						<table class="table table-bordered">
+    						            <thead>
+    						              <tr>
+    						                <th>#</th>
+    						                <th>First Name</th>
+    						                <th>Last Name</th>
+    						                <th>Username</th>
+    						              </tr>
+    						            </thead>
+    						            <tbody>
+    						              <tr>
+    						                <td>1</td>
+    						                <td>Mark</td>
+    						                <td>Otto</td>
+    						                <td>@mdo</td>
+    						              </tr>
+    						              <tr>
+    						                <td>2</td>
+    						                <td>Jacob</td>
+    						                <td>Thornton</td>
+    						                <td>@fat</td>
+    						              </tr>
+    						              <tr>
+    						                <td>3</td>
+    						                <td>Larry</td>
+    						                <td>the Bird</td>
+    						                <td>@twitter</td>
+    						              </tr>
+    						            </tbody>
+    						          </table>
+		    					</div>
+		    				</div>
+		    			</div>
+		    		</div>
+		    		<div class="col-md-5 pro-r">
+		    			<div class="panel panel-default">
+		    				<div class="panel-heading">
+		    					<h3 class="panel-title">第一组项目</h3>
+		    				</div>
+		    				<div class="panel-body">
+		    					<div class="pro-j">
+		    						<ul>
+		    							<li>
+		    								<span class="title"> 标题</span>
+		    								<p>报表三</p>
+		    							</li>
+		    							<li>
+		    								<table class="table table-bordered">
+		    									<thead>
+		    									  <tr>
+		    									    
+		    									    <th >价格</th>
+		    									    <th>负责人</th>
+		    									    
+		    									  </tr>
+		    									</thead>
+		    									<tbody>
+		    									  <tr>
+		    									    <td>￥158</td>
+		    									    <td>小A</td>
+		    									   
+		    									  </tr>
+		    									</tbody>
+		    								</table>
+		    							</li>
+		    							<li>
+		    								<span class="title">标题</span>
+		    								<div class="pro-d">
+		    									该项目负责人是···
+		    								</div>
+		    							</li>
+		    							<li><p><input type="checkbox" checked="" disabled=""><span style="color:#aaa;margin:0 5px">遵守保密协议</span><button type="button" class="btn btn-primary pull-right">搜索</button></p></li>
+		    						</ul>
+		    					</div>
+		    					
+		    				</div>
+		    			</div>
+		    		</div>
+		    	</div>
+		    	<div class="r-panel ">
+		    		<div class="col-md-5 ">
+		    			<div class="panel panel-default">
+		    				<div class="panel-heading">
+		    					<h3 class="panel-title">日历</h3>
+		    				</div>
+		    				<div class="panel-body">
+		    					<div class="pro-j clearfix">
+					    			<ul class="d-sty ">
+					    				<li>
+					    					<div class="x-item1">	
+								    			<div class="select2-container select2"style="float:left">
+								    				
+								    				<a href="" class="select2-choice select2-default" tabindex="-1">   
+								    					<span class="select2-chosen" >2016年</span>
+								    					<abbr class="select2-search-choice-close"></abbr>   
+								    					<span class="select2-arrow" role="presentation">
+								    						<b role="presentation"></b>
+								    					</span>
+								    				</a>		    		
+								    			</div>
+								    		</div>
+					    				</li>
+					    				<li>
+					    					<div class="x-item1">	
+								    			<div class="select2-container select2"style="float:left">
+								    				
+								    				<a href="" class="select2-choice select2-default" tabindex="-1">   
+								    					<span class="select2-chosen" >4月</span>
+								    					<abbr class="select2-search-choice-close"></abbr>   
+								    					<span class="select2-arrow" role="presentation">
+								    						<b role="presentation"></b>
+								    					</span>
+								    				</a>		    		
+								    			</div>
+								    		</div>
+					    				</li>
+					    				<li>
+					    					<div class="x-item1">	
+								    			<div class="select2-container select2"style="float:left">
+								    				
+								    				<a href="" class="select2-choice select2-default" tabindex="-1">   
+								    					<span class="select2-chosen" >标注日期</span>
+								    					<abbr class="select2-search-choice-close"></abbr>   
+								    					<span class="select2-arrow" role="presentation">
+								    						<b role="presentation"></b>
+								    					</span>
+								    				</a>		    		
+								    			</div>
+								    		</div>
+					    				</li>
+					    				<li>
+					    					<div class="x-item1">	
+								    			<div class="select2-container select2"style="float:left">
+								    				
+								    				<a href="" class="select2-choice select2-default" tabindex="-1">   
+								    					<span class="select2-chosen" >返回今日</span>
+								    					
+								    				</a>		    		
+								    			</div>
+								    		</div>
+					    				</li>
+					    			</ul>
+		    					</div>
+		    					<div class="rili-default">
+		    						<table class="cal-li">
+		    							<thead>
+		    								<tr>
+		    									<th class="">
+		    										<span title="Sunday">日</span>
+		    									</th>
+		    									<th>
+		    										<span title="Monday">一</span>
+		    									</th>
+		    									<th>
+		    										<span title="Tuesday">二</span>
+		    									</th>
+		    									<th>
+		    										<span title="Wednesday">三</span>
+		    									</th>
+		    									<th>
+		    										<span title="Thursday">四</span>
+		    									</th>
+		    									<th>
+		    										<span title="Friday">五</span>
+		    									</th>
+		    									<th class="">
+		    										<span title="Saturday">六</span>
+		    									</th>
+		    								</tr>
+		    							</thead>
+		    							<tbody>
+		    								<tr>
+		    									<th class="">
+		    										<span title=""></span>
+		    									</th>
+		    									<th class="">
+		    										<span title=""></span>
+		    									</th>
+		    									<th>
+		    										<span title=""></span>
+		    									</th>
+		    									<th>
+		    										<span title=""></span>
+		    									</th>
+		    									<th>
+		    										<span title="">1</span><br/>
+		    										<span class="y-ti">愚人节</span>
+		    									</th>
+		    									<th>
+		    										<span class="y-ti">2</span><br/>
+		    										<span>廿五</span>
+		    									</th>
+		    									<th>
+		    										<span class="y-ti">3</span><br/>
+		    										<span title="">廿六</span>
+		    									</th>
+		    									
+		    								</tr>
+		    								<tr>
+		    									<th class="">
+		    										<span title="">4</span><br/>
+		    										<span>廿七</span>
+		    									</th>
+		    									<th class="">
+		    										<span title="">5</span><br/>
+		    										<span class="y-ti">清明</span>
+		    									</th>
+		    									<th>
+		    										<span title="">6</span><br/>
+		    										<span>廿九</span>
+		    									</th>
+		    									<th>
+		    										<span title="">7</span><br/>
+		    										<span>三月</span>
+		    									</th>
+		    									<th>
+		    										<span title="">8</span><br/>
+		    										<span>初二</span>
+		    									</th>
+		    									<th class="active">
+		    										<span class="y-ti">9</span><br/>
+		    										<span>初三</span>
+		    									</th>
+		    									<th>
+		    										<span class="y-ti">10</span><br/>
+		    										<span>初四</span>
+		    									</th>
+		    									
+		    								</tr>
+		    								<tr>
+		    									<th class="">
+		    										<span title="">11</span><br/>
+		    										<span>初五</span>
+		    									</th>
+		    									<th class="active">
+		    										<span title="">12</span><br/>
+		    										<span>初六</span>
+		    									</th>
+		    									<th>
+		    										<span title="">13</span><br/>
+		    										<span>初七</span>
+		    									</th>
+		    									<th>
+		    										<span title="">14</span><br/>
+		    										<span>初八</span>
+		    									</th>
+		    									<th>
+		    										<span title="">15</span><br/>
+		    										<span>初九</span>
+		    									</th>
+		    									<th>
+		    										<span class="y-ti">16</span><br/>
+		    										<span>初十</span>
+		    									</th>
+		    									<th>
+		    										<span class="y-ti">17</span><br/>
+		    										<span>十一</span>
+		    									</th>
+		    									
+		    								</tr>
+		    								<tr>
+		    									<th class="">
+		    										<span title="">18</span><br/>
+		    										<span>十二</span>
+		    									</th>
+		    									<th class="active">
+		    										<span title="">19</span><br/>
+		    										<span>十三</span>
+		    									</th>
+		    									<th>
+		    										<span title="">20</span><br/>
+		    										<span>十四</span>
+		    									</th>
+		    									<th>
+		    										<span title="">21</span><br/>
+		    										<span>十五</span>
+		    									</th>
+		    									<th>
+		    										<span title="">22</span><br/>
+		    										<span>十六</span>
+		    									</th>
+		    									<th>
+		    										<span class="y-ti">23</span><br/>
+		    										<span>十七</span>
+		    									</th>
+		    									<th>
+		    										<span class="y-ti">24</span><br/>
+		    										<span>十八</span>
+		    									</th>
+		    									
+		    								</tr>
+		    								<tr>
+		    									<th class="">
+		    										<span title="">25</span><br/>
+		    										<span>十九</span>
+		    									</th>
+		    									<th class="">
+		    										<span title="">26</span><br/>
+		    										<span>廿十</span>
+		    									</th>
+		    									<th>
+		    										<span title="">27</span><br/>
+		    										<span>廿十一</span>
+		    									</th>
+		    									<th>
+		    										<span title="">28</span><br/>
+		    										<span>廿十二</span>
+		    									</th>
+		    									<th>
+		    										<span title="">29</span><br/>
+		    										<span>廿十三</span>
+		    									</th>
+		    									<th>
+		    										<span class="y-ti">30</span><br/>
+		    										<span>廿十四</span>
+		    									</th>
+		    								
+		    									
+		    								</tr>
+		    							</tbody>
+
+		    						</table>				
+		    					</div>
+		    				</div>
+		    			</div>
+		    		</div>
+		    		
+		    		<div class="col-md-6 pro-r">
+		    			<div class="panel panel-default">
+		    				<div class="panel-heading">
+		    					<h3 class="panel-title">汽车行业品牌排行榜</h3>
+		    				</div>
+		    				<div class="panel-body">
+		    					<table class="table table-striped table-bordered p-h-b">
+    					            <thead>
+    					              <tr>
+    					                <th>排名</th>
+    					                <th>品牌</th>
+    					                <th>搜索指数</th>
+    					              </tr>
+    					            </thead>
+    					            <tbody>
+    					              <tr>
+    					                <td>1</td>
+    					                <td>大众</td>
+    					                <td>
+    					                	<span>48912001</span>
+    					                	<div class="progress">
+								                <div style="width: 60%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="60" role="progressbar" class="progress-bar progress-bar-warning">
+								                  <span class="sr-only">60% Complete (warning)</span>
+								                </div>
+								            </div>
+
+    					                </td>
+    					              </tr>
+    					              <tr>
+    					                <td>2</td>
+    					                <td>丰田</td>
+    					                <td>
+    					                	<span>29307333</span>
+    					                	<div class="progress">
+			                	                <div style="width: 80%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" role="progressbar" class="progress-bar progress-bar-danger">
+			                	                  <span class="sr-only">80% Complete</span>
+			                	                </div>
+			                	            </div>
+    					                </td>
+    					             
+    					              </tr>
+    					              <tr>
+    					                <td>3</td>
+    					                <td>奥迪 </td>
+    					                <td>
+    					                	<span>23139070</span>
+    					                	<div class="progress">
+			                	                <div style="width: 50%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="50" role="progressbar" class="progress-bar progress-bar-info">
+			                	                  <span class="sr-only">50% Complete</span>
+			                	                </div>
+			                	            </div>
+    					                </td>
+    					              </tr>
+    					              <tr>
+    					                <td>4</td>
+    					                <td>本田 </td>
+    					                <td>
+    					                	<span>23139070</span>
+    					                	<div class="progress">
+			                	                <div style="width: 40%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="40" role="progressbar" class="progress-bar progress-bar-success">
+			                	                  <span class="sr-only">40% Complete (success)</span>
+			                	                </div>
+			                	              </div>
+    					                </td>
+    					                
+    					              </tr>
+    					              <tr>
+    					                <td>5</td>
+    					                <td>福特</td>
+    					                <td>
+    					                	<span>23139070</span>
+    					                	<div class="progress">
+			                	                <div style="width: 80%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" role="progressbar" class="progress-bar progress-bar-danger">
+			                	                  <span class="sr-only">80% Complete</span>
+			                	                </div>
+			                	            </div>
+    					                </td>
+    					                
+    					              </tr>
+    					              <tr>
+    					                <td>6</td>
+    					                <td>宝马</td>
+    					                <td>
+    					                	<span>23139070</span>
+    					                	<div class="progress">
+			                	                <div style="width: 80%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" role="progressbar" class="progress-bar progress-bar-danger">
+			                	                  <span class="sr-only">80% Complete</span>
+			                	                </div>
+			                	            </div>
+    					                </td>
+    					               
+    					              </tr>
+    					              <tr>
+    					                <td>7</td>
+    					                <td>现代</td>
+    					                <td>
+    					                	<span>23139070</span>
+    					                	<div class="progress">
+			                	                <div style="width: 40%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="40" role="progressbar" class="progress-bar progress-bar-success">
+			                	                  <span class="sr-only">40% Complete (success)</span>
+			                	                </div>
+			                	              </div>
+    					                </td>
+    					                
+    					              </tr>
+    					              <tr>
+    					                <td>8</td>
+    					                <td>起亚</td>
+    					                <td>
+    					                	<span>23139070</span>
+    					                	<div class="progress">
+			                	                <div style="width: 40%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="40" role="progressbar" class="progress-bar progress-bar-success">
+			                	                  <span class="sr-only">40% Complete (success)</span>
+			                	                </div>
+			                	              </div>
+    					                </td>
+    					                
+    					              </tr>
+    					              <tr>
+    					                <td>9</td>
+    					                <td>奔驰</td>
+    					                <td>
+    					                	<span>23139070</span>
+    					                	<div class="progress">
+			                	                <div style="width: 40%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="40" role="progressbar" class="progress-bar progress-bar-success">
+			                	                  <span class="sr-only">40% Complete (success)</span>
+			                	                </div>
+			                	              </div>
+    					                </td>
+    					                
+    					              </tr>
+    					              <tr>
+    					                <td>10</td>
+    					                <td>别克</td>
+    					                <td>
+    					                	<span>23139070</span>
+    					                	<div class="progress">
+			                	                <div style="width: 40%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="40" role="progressbar" class="progress-bar progress-bar-success">
+			                	                  <span class="sr-only">40% Complete (success)</span>
+			                	                </div>
+			                	              </div>
+    					                </td>
+    					                
+    					              </tr>
+
+    					            </tbody>
+    					          </table>
+		    				</div>
+		    			</div>
+		    		</div>
+		    	</div>
+		    </div>
+		</div>
+	</div>
+	
+
+</body>
+</html>
