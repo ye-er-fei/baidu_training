@@ -1,0 +1,250 @@
+html {font-size: 62.5%;/*10 ÷ 16 × 100% = 62.5%*/}
+
+body{font-family: "Microsoft Yahei",Helvetica, Arial, sans-serif;line-height:20px;height:100%;position:relative;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;outline:0;}
+
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+li{list-style:none;}
+caption,th{text-align:left;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+input,textarea,select,button{font-family:"Microsoft Yahei";font-size:inherit;font-weight:inherit;outline:none;}
+input,textarea,select{*font-size:100%;resize:none;}
+legend{color:#000;}
+b{font-weight:normal;}
+a{text-decoration:none;color:#2a5295;cursor:pointer;}
+li a:hover,span a:hover{text-decoration:none;}
+a.normal{font-size:12px;color:#333;text-decoration:none;}
+a:hover,a:active,a:focus,a:link {outline: none;text-decoration:none;}
+body{background-color: #F5F5F5;}
+.clearfix{
+    clear: both;
+}
+header {
+    background-color: #91d4da;
+    display: block;
+    font-weight: bold;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    width: 100%;
+}
+.back
+{
+    position: absolute;
+    left: 1rem;
+    line-height: 4rem;
+    color: #fff;
+    font-size: 20px;
+
+}
+.back img{
+    vertical-align:sub;
+    width: 20px;
+}
+header h2
+{
+    color: #fff;
+    font-size: 2rem;
+}
+
+nav {
+    height: 4rem;
+    width: 100%;
+}
+nav li {
+
+    color: #aaa;
+    float: left;
+    font-size: 1rem;
+    line-height: 4rem;
+    text-align: center;
+    width: 25%;
+    height: 4rem;
+}
+nav li.active
+{
+    border-bottom: 3px solid #8fd6da;
+}
+nav li:hover
+{
+    border-bottom: 3px solid #8fd6da;
+}
+section {
+    margin-top: 3px;
+}
+.b-img {
+    max-height: 55rem;
+    overflow: hidden;
+    width: 100%;
+}
+.b-img > img {
+    width: 100%;
+}
+.menu {
+    width: 100%;
+    display: inline-block;
+    background: #fff;
+}
+
+.menu li {
+    float: left;
+    height: 100%;
+    width: 20%;
+    text-align: center;
+}
+
+.menu li a {
+    display: block;
+    margin: 0 auto;
+    max-height: 125px;
+    max-width: 132px;
+}
+.menu li a img{
+    width: 100%;
+}
+.menu > ul {
+    margin-top: 2rem;
+}
+
+.menu span {
+    display: block;
+    font-size: 1rem;
+    margin: 20px 0;
+}
+.tab-f {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    display: inline-block;
+    width: 100%;
+    background: #fff;
+}
+.tab-f > ul {
+    margin-top: 20px;
+}
+.tab-f li{
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+.tab-f li:not(:last-child)
+{
+    border-right: 1px solid #ccc; 
+}
+.tab-f .tab-item .item-img
+{
+    max-width: 210px;
+    max-height: 189px;
+    margin: 0 auto;
+
+}
+.tab-f .tab-item .item-img img{
+    width: 100%;
+}
+.tab-t {
+    margin-top: 10px;
+}
+.tab-t p {
+    color: #adadad;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.m-first > li {
+    float: left;
+    width: 50%;
+}
+ .p-img
+{
+    max-width: 100px;
+    max-height: 95px;
+    float: left;
+    width: 25%;
+}
+ .p-img img{
+    width: 100%;
+}
+.model {
+    margin-top: 30px;
+    padding: 15px;
+    background: #fff;
+}
+.model p {
+    font-size: 1.2rem;
+    color: #aaa;
+    margin: 10px 0;
+}
+.m-second li div {
+    background: #eee;
+    padding: 0.5rem;
+    font-size: 12px;
+    margin: 5px ;
+}
+
+.m-first {
+    width: 75%;
+    display: inline-block;
+}
+
+.l-tab{
+    width: 100%;
+    display: inline-block;
+    background: #fff;
+}
+.l-first>li {
+    width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+    margin: 5px 0;
+}
+
+.l-second>li{
+    float: left;
+}
+.l-second .show-img
+{
+    width: 100px;
+    height: 90px;
+    margin: 5px 10px;
+}
+.l-second .show-img img{
+    width: 100%
+}
+.l-second p {
+    height: 50px;
+}
+.l-second small {
+    font-size: 12px;
+    color: #aaa;
+}
+
+
+.at-tab{
+    padding: 15px;
+    background: #fff;
+}
+.at-tab ul{
+    display: inline-block;
+}
+.at-tab h2 {
+    color: #aaa;
+    margin: 10px 0;
+}
+.at-tab p {
+    color: #ccc;
+    margin: 10px 0;
+}
+.at-tab li
+{
+    width: 30%;
+    height: auto;
+    float: left;
+    margin: 0 0.3rem
+}
+.at-tab li img{
+    width: 100%;
+}
