@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>tab切换</title>
+	<link href="css/reset.css" rel="stylesheet">
+	<script src="js/jquery.min.js"></script>
+	<style>
+	.out{
+		border: 1px solid #000;
+		width: 300px;
+		margin: 0 auto;
+	}
+
+		.tabli li{
+			padding: 10px 33px;
+			list-style: none;
+			float: left;
+			background-color: #ccc;
+			font-size: 16px;
+			color: #000;
+			text-align: center;
+			border: 1px solid #000;
+		}
+		.tabli li.active
+		{
+			background-color: #FFAA25;
+			color: #fff;
+		}
+		.tabpanel
+		{
+			clear: both;
+		}
+		.tabpanel div
+		{
+			display: none;
+			margin: 50px;
+		}
+		.wraper
+		{
+			width: 300px;
+			margin: 50px auto;
+			background-color:#444359;
+			border-radius: 6px;
+			color: #4D4D4D;
+
+		}
+		.menue{
+			border-radius: 6px;
+			border: 1px solid #ccc;
+		}
+		.menue>li{
+			text-align: center;
+			border-bottom: 1px solid #ccc; 
+
+		}
+		.wraper li:last-child {
+			border-bottom:none;
+		}
+		.wraper li div {
+			background-color: #fff;
+			padding: 5px 0;
+			cursor: pointer;
+		}
+		.wraper li div:hover
+		{
+			color: #B63B4D;
+			border-left: 3px solid #B63B4D;
+		}
+		.menue ul
+		{
+			display: none;
+			color: #fff;
+		}
+		.menue ul li:hover
+		{
+			background-color: #B63B4D;
+		}
+	</style>
+</head>
+<body>
+	<div class="out">
+		<div class="tabli">
+			<ul>
+				<li class="active">1-li</li>
+				<li>2-li</li>
+				<li>3-li</li>
+			</ul>
+		</div>
+		<div class="tabpanel">
+			<div class="panel1 " style="display:block">hsdfbh</div>
+			<div class="panel2">afdsg</div>
+			<div class="panel3">weq</div>
+			<div class="panel4">rtgtwq</div>
+		</div>
+	</div>
+	<div class="wraper">
+		<ul class="menue">
+			<li>
+				<div class="item1">菜单1</div>
+				<ul>
+					<li>hu</li>
+					<li>vfd</li>
+					<li>sef</li>
+				</ul>
+			</li>
+			<li>
+				<div class="item2">菜单2</div>
+				<ul>
+					<li>hu</li>
+					<li>vfd</li>
+					<li>sef</li>
+				</ul>
+			</li>
+			<li>
+				<div class="item3">菜单3</div>
+				<ul>
+					<li>hu</li>
+					<li>vfd</li>
+					<li>sef</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+	<script>
+		var $li=$(".tabli li");
+		var $panel=$(".tabpanel div");
+		$li.mouseover(function(){
+			var index=$(this).index();
+			// $li.removeClass('active');
+			$(this).addClass('active').siblings().removeClass('active');
+			$panel.css('display','none');
+			$panel.eq(index).css('display','block');
+		})
+
+
+
+        $(".menue div").click(function () {
+            //slide up all the link lists
+            $(".menue ul").slideUp();
+            //slide down the link list below the div clicked - only if its closed
+            if (!$(this).next().is(":visible")) {
+                $(this).next().slideDown();
+            }
+        })
+    
+	</script>
+</body>
+</html>
