@@ -1,0 +1,88 @@
+.layout
+{
+	width: 1000px;
+	margin: 0 auto;
+	padding:0;
+}
+.V-header
+{
+	background: url(../images/view-pic/top-bg.png) no-repeat scroll  50% 50%;
+	height: 295px;
+	position: relative;
+}
+.V-return
+{
+	background:rgba(0, 0, 0, 0) url("../images/view-pic/common.png") no-repeat scroll -4px -4px;
+	height: 75px;
+    left: 100px;
+    position: absolute;
+    top: 50px;
+    width: 205px;
+}
+.V-play .V-title 
+{
+    background: rgba(0, 0, 0, 0) url("../images/view-pic/common.png") no-repeat scroll -4px -79px;
+    height: 82px;
+    left: 355px;
+    position: absolute;
+    top: -150px;
+    width: 302px;
+}
+.V-play
+{
+	background-color: #000;
+   height: 555px;
+   margin-top: 200px;
+   position: relative;
+}
+.V-play .play-btn 
+{
+    background: rgba(0, 0, 0, 0) url("../images/common.png") no-repeat scroll 0 -368px;
+    height: 200px;
+    left: 410px;
+    position: absolute;
+    top: 150px;
+    width: 200px;
+}
+.V-detail {
+    margin: 100px 0;
+    position: relative;
+}
+
+.V-detail .V-title {
+    background: rgba(0, 0, 0, 0) url("../images/view-pic/common.png") no-repeat scroll -4px -160px;
+    height: 82px;
+    margin-left: 355px;
+    width: 302px;
+}
+.V-items {
+    display: inline-block;
+}
+.V-item {
+    border: 1px solid #dcdcdc;
+    float: left;
+    padding: 10px;
+    margin: 30px 28px;
+    position: relative;
+}
+
+.V-item-txt {
+    margin-top: 15px;
+}
+.V-item-txt > p {
+    font-size: 20px;
+    color: #3f3f3f;
+}
+.V-item-txt span {
+    font-size: 14px;
+    color: #525151;
+}
+.V-item .play-btn {
+    background: rgba(0, 0, 0, 0) url("../images/view-pic/common.png") no-repeat scroll -219px -6px;
+    height: 70px;
+    left: 100px;
+    position: absolute;
+    top: 50px;
+    width: 70px;
+}
+

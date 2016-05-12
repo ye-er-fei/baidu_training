@@ -1,0 +1,117 @@
+body{background: #000;}
+.layout {
+
+    min-height: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 1200px;
+}
+.V-header
+{
+   
+    height: 659px;
+    position: relative;
+}
+.v-txt {
+   width: 1100px;margin: 0 auto;
+}
+.v-txt ul{
+    position: absolute;
+    top: 300px;
+    font-size: 24px;
+    line-height: 38px;
+    color: #089ea7;
+}
+.V-header.v-h1{ background: rgba(0, 0, 0, 0) url("../images/hero-pic/h-bg2.png") no-repeat scroll 50% 50%;}
+/*.V-header.v-h2{ background: rgba(0, 0, 0, 0) url("../images/hero-pic/h-bg2-2.png") no-repeat scroll 50% 50%;}*/
+/*.V-header.v-h3{ background: rgba(0, 0, 0, 0) url("../images/hero-pic/h-bg2-3.png") no-repeat scroll 50% 50%;}*/
+/*.V-header.v-h4{ background: rgba(0, 0, 0, 0) url("../images/hero-pic/h-bg2-4.png") no-repeat scroll 50% 50%;}*/
+/*.V-header.v-h5{ background: rgba(0, 0, 0, 0) url("../images/hero-pic/h-bg2-5.png") no-repeat scroll 50% 50%;}*/
+/*.V-header.v-h6{ background: rgba(0, 0, 0, 0) url("../images/hero-pic/h-bg2-6.png") no-repeat scroll 50% 50%;}*/
+/*.V-header.v-h7{ background: rgba(0, 0, 0, 0) url("../images/hero-pic/h-bg2-7.png") no-repeat scroll 50% 50%;}*/
+/*.V-header.v-h8{ background: rgba(0, 0, 0, 0) url("../images/hero-pic/h-bg2-8.png") no-repeat scroll 50% 50%;}*/
+
+.V-return
+{
+    background:rgba(0, 0, 0, 0) url("../images/view-pic/common.png") no-repeat scroll -4px -4px;
+    height: 75px;
+    left: 100px;
+    position: absolute;
+    top: 50px;
+    width: 205px;
+}
+
+.V-detail {
+}
+
+.V-detail .V-title {
+    background: rgba(0, 0, 0, 0) url("../images/game-pic/common.png") no-repeat scroll -17px -353px;
+    height: 82px;
+    margin-left: 60px;
+    width: 302px;
+}
+
+.N-detail {
+    width: 1200px;
+}
+.N-detail .left-h
+{
+    float: left;
+    width: 344px;
+    height: 405px;
+}
+.N-detail .right-h
+{
+    width: 700px;
+    float: left;
+    margin: 0 50px;
+
+}
+.cont-h {
+    margin: 20px 0;
+}
+.cont-h > p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+    text-indent: 2em;
+}
+.tj-h{
+    background: url(../images/hero-pic/h-bg3.png)no-repeat scroll  50% 50%;
+    height: 425px;
+    position: relative;
+}
+.tj-h .title
+{
+    background: rgba(0, 0, 0, 0) url("../images/game-pic/common.png") no-repeat scroll -17px -453px;
+    height: 82px;
+    width: 302px;
+    position: absolute;
+    left: 43%;
+    top:225px;
+}
+.pic-h {
+    margin: 100px auto 0;
+    min-height: 500px;
+    width: 1100px;
+}
+.pic-item {
+    float: left;
+    margin: 15px;
+    padding: 5px;
+}
+
+.p-item-txt {
+    margin: 0 auto;
+    width: 200px;
+}
+.p-item-txt .p-tt {
+    color: #e4b641;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+}
+.p-item-txt span {
+    color: #fff;
+    font-size: 16px;
+}

@@ -1,0 +1,224 @@
+
+.layout {
+
+    height: 800px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    width: 1200px;
+}
+.V-header
+{
+    background: url(../images/hero-pic/h-bg.png) no-repeat scroll  50% 50%;
+    height: 1075px;
+    position: relative;
+}
+.V-return
+{
+    background:rgba(0, 0, 0, 0) url("../images/view-pic/common.png") no-repeat scroll -4px -4px;
+    height: 75px;
+    left: 100px;
+    position: absolute;
+    top: 50px;
+    width: 205px;
+}
+
+.V-detail {
+    position: relative;
+}
+
+
+.V-detail .V-title {
+    background: rgba(0, 0, 0, 0) url("../images/game-pic/common.png") no-repeat scroll 0 -259px;
+    height: 82px;
+    margin-left: 455px;
+    width: 302px;
+}
+.N-detail {
+    width: 1200px;
+    position: relative;
+}
+.hero-left
+{
+    width: 700px;
+    position: relative;
+    z-index: 20;
+}
+.hero-t {
+    position: absolute;
+    top: 50px;
+    
+}
+
+/*.hero-t .t-1
+{
+    background: rgba(0, 0, 0, 0) url("../images/icon/hero.png") no-repeat scroll -95px -83px;
+   height: 155px;
+   position: absolute;
+   width: 185px;
+}
+.hero-t .t-1:hover
+{
+    background: rgba(0, 0, 0, 0) url("../images/hero.png") no-repeat scroll -92px -259px;
+}
+.hero-t .t-1.active
+{
+    background: rgba(0, 0, 0, 0) url("../images/hero.png") no-repeat scroll -92px -259px;
+}
+.hero-t .t-2
+{
+    background: rgba(0, 0, 0, 0) url("../images/hero.png") no-repeat scroll -314px -83px;
+    height: 155px;
+    left: 190px;
+    position: absolute;
+    width: 185px;
+}
+.hero-t .t-2:hover
+{
+    background: rgba(0, 0, 0, 0) url("../images/hero.png") no-repeat scroll -310px -260px;
+}
+.hero-t .t-2.active
+{
+    background: rgba(0, 0, 0, 0) url("../images/hero.png") no-repeat scroll -310px -260px;
+}
+.hero-t .t-3
+{
+    background: rgba(0, 0, 0, 0) url("../images/hero.png") no-repeat scroll -527px -83px;
+   height: 155px;
+   left: 380px;
+   position: absolute;
+   width: 185px;
+}
+.hero-t .t-3.active
+{
+    background: rgba(0, 0, 0, 0) url("../images/hero.png") no-repeat scroll -525px -260px;
+}
+
+.hero-t .t-3:hover
+{
+    background: rgba(0, 0, 0, 0) url("../images/hero.png") no-repeat scroll -525px -260px;
+}
+.hero-t .t-4
+{
+    background: rgba(0, 0, 0, 0) url("../images/hero.png") no-repeat scroll -734px -83px;
+       height: 155px;
+       position: absolute;
+       top: 165px;
+       width: 185px;
+}
+.hero-t .t-4:hover
+{
+    background: rgba(0, 0, 0, 0) url("../images/hero.png") no-repeat scroll -732px -259px;
+}
+.hero-t .t-4.active
+{
+    background: rgba(0, 0, 0, 0) url("../images/hero.png") no-repeat scroll -732px -259px;
+}
+.hero-t .t-5 {
+    background: rgba(0, 0, 0, 0) url("../images/hero.png") no-repeat scroll -930px -83px;
+    height: 155px;
+    left: 190px;
+    position: absolute;
+    top: 165px;
+    width: 185px;
+}
+.hero-t .t-5:hover
+{
+    background: rgba(0, 0, 0, 0) url("../images/hero.png") no-repeat scroll -927px -259px;
+}
+.hero-t .t-5.active
+{
+    background: rgba(0, 0, 0, 0) url("../images/hero.png") no-repeat scroll -927px -259px;
+}
+.hero-t .t-6 {
+    background: rgba(0, 0, 0, 0) url("../images/hero.png") no-repeat scroll -1122px -83px;
+        height: 155px;
+        left: 380px;
+        position: absolute;
+        top: 165px;
+        width: 185px;
+}
+.hero-t .t-6:hover
+{
+    background: rgba(0, 0, 0, 0) url("../images/hero.png") no-repeat scroll -1120px -259px;
+}
+.hero-t .t-6.active
+{
+    background: rgba(0, 0, 0, 0) url("../images/hero.png") no-repeat scroll -1120px -259px;
+}
+.hero-t .t-7 {
+    background: rgba(0, 0, 0, 0) url("../images/hero.png") no-repeat scroll -1327px -83px;
+    height: 155px;
+    position: absolute;
+    top: 327px;
+    width: 185px;
+}
+.hero-t .t-7:hover
+{
+    background: rgba(0, 0, 0, 0) url("../images/hero.png") no-repeat scroll -1324px -259px;
+}
+.hero-t .t-7.active
+{
+    background: rgba(0, 0, 0, 0) url("../images/hero.png") no-repeat scroll -1324px -259px;
+}
+.hero-t .t-8 {
+    background: rgba(0, 0, 0, 0) url("../images/hero.png") no-repeat scroll -1528px -83px;
+    height: 155px;
+    left: 190px;
+    position: absolute;
+    top: 327px;
+    width: 185px;
+}
+.hero-t .t-8:hover
+{
+    background: rgba(0, 0, 0, 0) url("../images/hero.png") no-repeat scroll -1525px -259px;
+}
+.hero-t .t-8.active
+{
+    background: rgba(0, 0, 0, 0) url("../images/hero.png") no-repeat scroll -1525px -259px;
+}
+
+*/
+
+.hero-p
+{
+    width: 500px;
+    float: right;
+
+}
+.hero-p img
+{
+    display: none;
+    width: 100%;
+    cursor: pointer;
+}
+.hero-p img.active
+{
+    display: block;
+}
+
+.slow {
+    color: #fff;
+    font-size: 16px;
+    left: 50px;
+    position: absolute;
+    top: 67px;
+    display: none;
+}
+
+
+
+.hero-t li {
+    cursor: pointer;
+    float: left;
+    position: relative;
+}
+.hero-t li img.light-icon {
+opacity: 0.5;
+}
+.hero-t li.active img.light-icon {
+opacity: 1;
+}
+.hero-t li img.light-icon:hover {
+opacity: 1;
+}

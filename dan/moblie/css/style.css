@@ -1,0 +1,311 @@
+body
+{
+	background-color:rgba(0,0,0,0.5);
+
+}
+.pull-left
+{
+	float: left;
+
+}
+.pull-right
+{
+	float: right;
+	
+}
+.btn {
+    border-radius: 3px;
+    line-height: 21px;
+    padding: 9px 15px;
+    transition: all 0.2s ease-out 0s;
+    cursor: pointer;
+}
+.btn-default
+{
+	background-color: #9b999a;
+    border-color: #9b999a;
+    color: #fff;
+}
+/*输入密码后，将登录按钮中.btn-default改为.btn-info*/
+.btn-info
+{
+	background-color: #21c9ba;
+    border-color: #21c9ba;
+    color: #fff;
+}
+.btn-primary {
+    background-color: #428bca;
+    border-color: #357ebd;
+    color: #fff;
+}
+.btn-success {
+    background-color: #23b260;
+    border-color: #1fa056;
+    color: #fff;
+}
+.btn-warning {
+    background-color: #f0ad4e;
+    border-color: #eea236;
+    color: #fff;
+}
+.btn-danger {
+    background-color: #d22020;
+    border-color: #d43f3a;
+    color: #fff;
+}
+.container
+{
+	width: 27rem;
+	height: 42rem;
+    margin:10rem auto;
+    position: relative;
+
+}
+.panel
+{
+	
+	background: #fcfcfc none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 3px 0 rgba(12, 12, 12, 0.03); 
+}
+.panel-hearder
+{
+	width: 4rem;
+	height: 8rem;
+}
+.panel-footer p
+{
+
+	margin: 3rem;
+	text-align:center;
+}
+.panel-footer p a
+{
+	color: #5bb88b;
+	font-size: 1.6rem;
+}
+/*chooselogin*/
+.panel-hearder a.return-btn
+{
+	background: rgba(0, 0, 0, 0) url("../images/i-r.png") no-repeat;
+	width: 4rem;
+	height: 4rem;
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+
+}
+.panel-hearder a.close-btn
+{
+	background: rgba(0, 0, 0, 0) url("../images/common.png") no-repeat scroll -260px -1px;
+	width: 4rem;
+	height: 4rem;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+
+}
+.panel-body
+{
+	text-align: center;
+
+}
+.panel-body small
+{
+	color: #b5b5b5;
+
+}
+
+.panel-body .logo
+{
+	width: 20rem;
+	height: 8rem;
+	margin: 0 auto;
+	background: url("../images/common.png")no-repeat -1px -2px;
+
+}
+.select li {
+    float: left;
+    margin: 1rem 1.2rem;
+}
+.select li div.item {
+    position: relative;
+    width: 6.5rem;
+}
+.select li div.item a img
+{
+	width: 100%;
+	margin: 0.5rem 0;
+}
+.panel-footer
+{
+	border-top: 1px solid #aaa;
+	margin-top: 70px;
+
+}
+.panel-footer li
+{
+	float: left;
+	margin: 1rem 1.8rem;
+}
+.panel-footer li div.item
+{
+	position: relative;
+    width: 4.5rem;
+}
+.panel-footer li div.item a img
+{
+	width: 100%;
+	margin: 0.5rem 0;
+}
+
+/*login*/
+.form>div,.c-form>div
+{
+	width: 20rem;
+    height: 2rem;
+    border: 1px solid #000;
+    margin: 2rem auto;
+    text-align: left;
+    padding: 3px;
+    position: relative;
+
+}
+.c-form>div,.c-form>div input{
+	text-align: center;
+}
+.yz-form div.yzm
+{
+	width: 23rem;
+    height: 2.5rem;
+    margin: 2rem auto;
+    text-align: left;
+    position: relative;
+    padding: 0 3px;
+    
+
+}
+.yz-form div.username
+{
+    border: 1px solid #000;
+    margin: 2rem auto;
+    padding: 3px;
+    width: 20.5rem;
+    height: 2rem;
+    text-align: left;
+
+
+}
+
+.yz-form div.user-p
+{
+    border: 1px solid #000;
+    margin: 2rem auto;
+    padding: 3px;
+    width: 20.5rem;
+    height: 2rem;
+    text-align: left;
+
+
+}
+.yz-form div.user-p input
+{
+	background: url("../images/i-m.png") no-repeat left center;
+	height: 2rem;
+	padding-left: 40px;
+}
+.form div.username input,.yz-form div.username input
+{
+	background: url("../images/user.png") no-repeat left center;
+	height: 2rem;
+	padding-left: 40px;
+}
+.form div.password input
+{
+	background: url("../images/password.png") no-repeat left center;
+	height: 2rem;
+	padding-left: 40px;
+
+}
+.form div.password-c input
+{
+	background: url("../images/s-p.png") no-repeat left center;
+	height: 2rem;
+	padding-left: 40px;
+
+}
+.form div.password a{
+    position: absolute;
+    right: 10px;
+    color: #aaa;
+}
+.l-btn button {
+    margin: 10px 0;
+    width: 21rem;
+}
+.form p {
+    margin: 10px auto;
+    width: 21rem;
+}
+
+/*account*/
+.user-account
+{
+
+}
+.form div.user-account input
+{
+	background: url("../images/user.png") no-repeat left center;
+	height: 2rem;
+	padding-left: 40px;
+}
+i.down-btn 
+{
+	width:2rem;
+	height: 2rem;
+	position: absolute;
+	right: 1rem;
+}
+i.down-btn img
+{
+	width: 100%;
+}
+.form .s-down {
+    border: 1px solid #000;
+    background: #eee;
+    position: absolute;
+    top: 32px;
+    width: 20rem;
+    left: -1px;
+    padding: 3px;
+}
+
+
+/*yanzheng*/
+.yzm input
+{
+	width: 15rem;
+	height:2.5rem;
+	float: left;
+	border: 1px solid #000;
+	margin-left: 9px;
+}
+.yzm-img 
+{
+	width:6rem;
+	height:2.5rem;
+	float: left;
+	border-top: 1px solid #000;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	font-style: normal;
+	font-size: 1.2rem;
+	color: #aaa;
+	line-height: 2.5rem;
+	text-align: center;
+}
+.yzm-img img
+{
+	width: 100%;
+}

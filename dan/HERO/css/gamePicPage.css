@@ -1,0 +1,104 @@
+.layout
+{
+    width: 1150px;
+    margin: 0 auto;
+    padding:0;
+}
+.V-header
+{
+    background: url(../images/view-pic/top-bg.png) no-repeat scroll  50% 50%;
+    height: 295px;
+    position: relative;
+}
+.V-return
+{
+    background:rgba(0, 0, 0, 0) url("../images/view-pic/common.png") no-repeat scroll -4px -4px;
+    height: 75px;
+    left: 100px;
+    position: absolute;
+    top: 50px;
+    width: 205px;
+}
+
+.V-detail {
+    min-height: 800px;
+    margin: 100px 0;
+    position: relative;
+}
+
+.V-detail .V-title {
+    background: rgba(0, 0, 0, 0) url("../images/game-pic/common.png") no-repeat scroll -4px -6px;
+    height: 82px;
+    left: 425px;
+    position: absolute;
+    width: 302px;
+}
+.V-items {
+    padding-top: 100px;
+}
+.V-item {
+    float: left;
+    padding: 10px;
+    margin: 30px 26px;
+    position: relative;
+}
+
+.V-item-txt {
+    margin-top: 15px;
+}
+.V-item-txt > p {
+    font-size: 20px;
+    color: #3f3f3f;
+}
+.V-item-txt span {
+    font-size: 14px;
+    color: #525151;
+}
+.V-item .play-btn {
+    background: rgba(0, 0, 0, 0) url("../images/view-pic/common.png") no-repeat scroll -219px -6px;
+    height: 70px;
+    left: 100px;
+    position: absolute;
+    top: 50px;
+    width: 70px;
+}
+
+.g-pagenation {
+    text-align: center;
+}
+.pagination-tab {
+    border-radius: 4px;
+    display: inline-block;
+    margin: 20px 0;
+    padding-left: 0;
+}
+.pagination-tab  li {
+    
+    float: left;
+    line-height: 88px;
+    margin: 5px;
+    padding: 5px;
+}
+.pagination-tab  li a
+{
+    font-size: 20px;
+    color: #666565;
+}
+.pagination-tab  li.active a
+{
+    color: #010101;
+}
+.left-btn
+{
+    background: rgba(0, 0, 0, 0) url("../images/game-pic/common.png") no-repeat scroll -11px -85px;
+   display: block;
+   height: 75px;
+   width: 75px;
+}
+.right-btn
+{
+    background: rgba(0, 0, 0, 0) url("../images/game-pic/common.png") no-repeat scroll -220px -85px;
+   display: block;
+   height: 75px;
+   width: 75px;
+}

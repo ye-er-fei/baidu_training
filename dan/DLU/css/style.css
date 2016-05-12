@@ -1,0 +1,271 @@
+button, input, select, textarea
+{
+    border:1px solid #aaa;
+}
+
+/*login*/
+.container {
+    border: 1px solid #010101;
+    height: auto;
+    margin: 10% auto;
+    padding-bottom: 20px;
+    width: 550px;
+}
+.panel-hearding {
+    border-bottom: 1px solid #010101;
+    font-size: 24px;
+    height: 50px;
+}
+
+.panel-title {
+    display: inline-block;
+    float: left;
+    line-height: 50px;
+    padding-left: 10px;
+}
+.panel-body {
+    font-size: 24px;
+    margin: 70px auto 0;
+    width: 335px;
+}
+.dlu > p {
+    line-height: 50px;
+}
+.dlu input {
+    font-size: 16px;
+    overflow: hidden;
+    padding: 5px;
+    width: 210px;
+    color: #767676;
+}
+.dlu button {
+    background: #8fcf4a none repeat scroll 0 0;
+    border: medium none;
+    margin-left: 118px;
+    margin-top: 30px;
+    width: 100px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.dlu small  {
+    color: #ff0000;
+    display: none;
+}
+.dlu small.active
+{
+	display: block;
+}
+
+/*annoucement*/
+.layout
+{
+	width: 1050px;
+	border: 1px solid #010101;
+    height: auto;
+    margin: 10% auto;
+    padding-bottom: 20px;
+}
+.panel-hearding ul
+{
+	float: right;
+}
+.panel-hearding li {
+    float: left;
+    line-height: 42px;
+     margin: 5px 40px;
+}
+.panel-hearding li a.out 
+{
+	color: #ff0000;
+    text-decoration: underline;
+}
+
+.table {
+    background-color: #fcfcfc;
+    box-shadow: 0 3px 0 rgba(12, 12, 12, 0.03);
+}
+.table-bordered {
+    border: 1px solid #ddd;
+}
+.table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td {
+    border-color: #aaa;
+    padding: 10px;
+}
+.a-left {
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin: 50px 30px;
+    width: 150px;
+    float: left
+}
+.a-left li {
+    border: 1px solid #aaa;
+    font-size: 24px;
+    padding: 10px 0;
+    text-align: center;
+    cursor: pointer;
+    background: #f4f4f4 none repeat scroll 0 0;
+    
+}
+.a-left li:hover,.a-left li.active
+{
+	color: #077f82;
+}
+.a-right {
+    border: 1px solid #aaa;
+    display: block;
+    float: right;
+    margin-right: 30px;
+    margin-top: 50px;
+    width: 805px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.a-right table {
+    width: 805px;
+
+}
+.a-right table tr td:not(:last-child){
+	text-align: center;
+}
+
+
+/*tab02*/
+
+.a-title > p {
+    background: #f4f4f4 none repeat scroll 0 0;
+    border-bottom: 1px solid #aaa;
+    font-size: 24px;
+    padding: 5px 0;
+    text-align: center;
+}
+.a-content textarea
+{
+	width: 750px;
+	text-indent: 2rem;
+	min-height: 150px;
+	padding: 10px 0;
+	line-height: 20px;
+	resize:none;
+	border: none;
+
+}
+.a-btn button {
+    background: #f4f4f4 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    padding: 5px 40px;
+    position: absolute;
+    right: -1px;
+    cursor: pointer;
+}
+
+/*tab03*/
+.e-left {
+    margin-left: 20px;
+    width: 235px;
+    float: left;
+}
+
+.e-left li {
+    margin-bottom: 10px;
+}
+.e-left span {
+    vertical-align: top;
+}
+.e-left textarea {
+    overflow-y: auto;
+    resize: none;
+}
+.e-right {
+    float: right;
+    width: 548px;
+}
+
+.e-js .e-f1 span {
+    display: block;
+    float: left;
+    width: 80px;
+}
+.e-t-l {
+    width: 200px;
+    float: left;
+}
+.e-t-l li {
+	margin: 20px 0;
+}
+.e-t-l span {
+    display: block;
+    float: left;
+    width: 100px;
+}
+.e-t-l select {
+    width: 100px;
+}
+/*.e-t-l input {
+    width: 65px;
+    float: left;
+}*/
+.e-t-l div button
+{
+    float: left;
+    padding: 0 3px;
+    cursor: pointer;
+    line-height: 22px;
+}
+.e-t-l textarea {
+    width: 200px;
+    margin-top: 5px;
+}
+.e-f1 > textarea,.e-t-l textarea
+ {
+    resize: none;
+}
+.delet,.add {
+    padding: 2px 30px;
+    margin-top: 5px;
+    border-radius:3px;
+    cursor: pointer; 
+}
+.add
+{
+	float: right;
+}
+.e-t-r {
+    float: right;
+    height: 300px;
+    margin-right: 12px;
+    width: 320px;
+    position: relative;
+    margin-top: 20px;
+    overflow-y:auto; 
+}
+.e-t-r > table {
+    width: 300px;
+}
+
+
+
+.e-t-r button {
+    float: right;
+    padding: 5px 30px;
+    cursor: pointer;
+}
+.e-f1 small {
+    color: #aaa;
+}
+.e-f1 > textarea {
+    width: 452px;
+}
+.tt-b
+{
+	display: none;
+}
+
+
+/*tab*/
+
+.tt-b.active, .tt-b.active, .tt-b.active
+{
+	display: block;
+}

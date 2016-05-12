@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>item</title>
+	<style>
+	body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;outline:0;}
+	body{min-width: 1300px;font-family:"Microsoft Yahei";font-weight:normal;font-size:12px;line-height:20px;height:100%;position:relative;}
+	table{border-collapse:collapse;border-spacing:0;}
+	fieldset,img{border:0;}
+	address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+	li{list-style:none;}
+	caption,th{text-align:left;}
+	q:before,q:after{content:'';}
+	abbr,acronym{border:0;font-variant:normal;}
+	sup{vertical-align:text-top;}
+	sub{vertical-align:text-bottom;}
+	input,textarea,select,button{font-family:inherit;font-size:inherit;font-weight:inherit;outline:none;}
+	input,textarea,select{*font-size:100%;resize:none;}
+	legend{color:#000;}
+	i{font-style: normal;}
+	b{font-weight:normal;}
+	a{text-decoration:none;color:#2a5295;cursor:pointer;}
+	li a:hover,span a:hover{text-decoration:none;}
+	a.normal{font-size:12px;color:#333;text-decoration:none;}
+	a:hover,a:active,a:focus,a:link {outline: none;text-decoration:none;}
+	.clearfix{clear: both;}
+	body{background: #000;}
+	
+
+	/*图片信息流*/
+	.pic-h {
+	    margin: 100px auto 0;
+	    min-height: 500px;
+	    width: 1200px;
+	}
+	.pic-item {
+	    float: left;
+	    margin: 40px;
+	    padding: 5px;
+	    position: relative;
+	}
+
+	.p-item-txt {
+	    margin: 0 auto;
+	    width: 200px;
+	    margin-top: 140px;
+
+	}
+	.p-item-txt .p-tt {
+	    color: #e4b641;
+	    font-size: 20px;
+	    text-align: center;
+	    margin: 10px 0;
+	}
+	.p-item-txt span {
+	    color: #fff;
+	    font-size: 16px;
+	}
+	.pic-item img{width: 235px;height: 135px;position: absolute;}
+
+	/*放大的特效动画*/
+	.pic-item:hover img
+	{
+		-webkit-animation:bigger .8s 1 backwards ease-out 300ms 0 ease;-moz-animation:bigger .8s 1 backwards ease-out 300ms 0 ease;-ms-animation:bigger .8s 1 backwards ease-out 300ms 0 ease;animation:bigger .8s 1 backwards ease-out 300ms 0 ease;-moz-animation:bigger .8s 1 backwards ease-out;-webkit-animation:bigger .8s 1 backwards ease-out;-o-animation:bigger .8s 1 backwards ease-out;-ms-animation:bigger .8s 1 backwards ease-out;animation:bigger .8s 1 backwards ease-out
+	}
+	
+	@-webkit-keyframes bigger{0%{opacity:1;-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1);transform:scale(1)}100%{opacity:0;-webkit-transform:scale(1.75);-moz-transform:scale(1.75);-ms-transform:scale(1.75);-o-transform:scale(1.75);transform:scale(1.75)}}
+	@-moz-keyframes bigger{0%{opacity:1;-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1);transform:scale(1)}100%{opacity:0;-webkit-transform:scale(1.75);-moz-transform:scale(1.75);-ms-transform:scale(1.75);-o-transform:scale(1.75);transform:scale(1.75)}}
+	@-ms-keyframes bigger{0%{opacity:1;-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1);transform:scale(1)}100%{opacity:0;-webkit-transform:scale(1.75);-moz-transform:scale(1.75);-ms-transform:scale(1.75);-o-transform:scale(1.75);transform:scale(1.75)}}
+	@-o-keyframes bigger{0%{opacity:1;-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1);transform:scale(1)}100%{opacity:0;-webkit-transform:scale(1.75);-moz-transform:scale(1.75);-ms-transform:scale(1.75);-o-transform:scale(1.75);transform:scale(1.75)}}
+	@keyframes bigger{0%{opacity:1;-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1);transform:scale(1)}100%{opacity:0;-webkit-transform:scale(1.75);-moz-transform:scale(1.75);-ms-transform:scale(1.75);-o-transform:scale(1.75);transform:scale(1.75)}}
+	
+
+
+	/*图片滑动*/
+	.md{position:relative;background-color:#cdd5de;margin-top:10px;padding-bottom:30px}
+	.md .md-ul{position:relative;width:1180px;height:478px;margin:0 auto}
+	.md li{overflow:hidden;float:left;width:140px;-webkit-transition:width .5s;-moz-transition:width .5s;-ms-transition:width .5s;-o-transition:width .5s;transition:width .5s;-webkit-transform:translateZ(0);-moz-transform:translateZ(0);-ms-transform:translateZ(0);-o-transform:translateZ(0);transform:translateZ(0);cursor:pointer}
+	.md li b{display:block;width:140px;height:465px;text-indent:-9999em;background:url(../hero/images/md_a75bf85.jpg) no-repeat;-webkit-transition:all .5s;-moz-transition:all .5s;-ms-transition:all .5s;-o-transition:all .5s;transition:all .5s}
+	.md .on{width:620px}
+	.md .on b{-webkit-transform:translate3d(-100%,0,0);-moz-transform:translate3d(-100%,0,0);-ms-transform:translate3d(-100%,0,0);-o-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0);opacity:0;filter:alpha(opacity=0)}
+	.md .md-ul-li1{background:url(../hero/images/md1_on_ce9580a.jpg) no-repeat}
+	.md .md-ul-li1 b{background-position:0 0}
+	.md .md-ul-li2{background:url(../hero/images/md2_on_d55e557.jpg) no-repeat}
+	.md .md-ul-li2 b{background-position:-140px 0}
+	.md .md-ul-li3{background:url(../hero/images/md3_on_0c28d5a.jpg) no-repeat}
+	.md .md-ul-li3 b{background-position:-280px 0}
+	.md .md-ul-li4{background:url(../hero/images/md4_on_394e5e0.jpg) no-repeat}
+	.md .md-ul-li4 b{background-position:-420px 0}
+	.md .md-ul-li5{background:url(../hero/images/md5_on_f888a22.jpg) no-repeat}
+	.md .md-ul-li5 b{background-position:-560px 0}
+	.slide-arrow{display:block;width:13px;height:50px;z-index:10000;position:absolute;top:183px}
+	.xiongmao{position:absolute;width:398px;height:427px;background:url(../hero/images/xiongmao_01dbeb3.png) 0 0 no-repeat;top:0;left:-386px;z-index:10}
+
+	
+	/*下载顶条*/
+	#download_stick{position:fixed;width:100%;height:60px;padding-top:15px;background:#fdfdfd;z-index:10000;top:0;left:0;display:none}
+	#download_stick .stick_con{width:1260px;height:74px;margin:0 auto}
+	#download_stick .stick_logo{display:block;width:252px;height:58px;background:url(../hero/images/TOPSGAMElogo.png) 0 0 no-repeat;float:left}
+	#download_stick .stick_con a{display:block;float:right;width:137px;height:39px;background:url(../hero/images/stick_appstore_afa31f6.png) 0 0 no-repeat}
+	#download_stick .stick_con a.android{width:137px;height:39px;margin-left:32px;background:url(../hero/images/stick_android_3e5dbed.png) 0 0 no-repeat;margin-right:10px}
+/*	.txt-4 .box-icn{margin-left:-27px}
+	.txt-3 .box-icn{margin-left:15px}
+	.txt-2 .box-icn{margin-left:-10px}
+	.txt-1 .box-icn{margin-left:24px}*/
+
+	/*panel-box*/
+	.panel-con{position:relative;background-color:#cacaca;margin-top:10px;padding: 30px 0;height: 340px;}
+	.panel-box{position:relative;float: left;width: 25%;height: 340px;}
+	.panel-box .bg1,.panel-box .bg2,.panel-box .bg3,.panel-box .bg4{width:100%;height: 100%;position: absolute; }
+	.panel-box .bg1{background:url(../hero/images/md1_on_ce9580a.jpg) no-repeat}
+	.panel-box .bg2{background:url(../hero/images/md2_on_d55e557.jpg) no-repeat}	
+	.panel-box .bg3{background:url(../hero/images/md3_on_0c28d5a.jpg) no-repeat}	
+	.panel-box .bg4{background:url(../hero/images/md5_on_f888a22.jpg) no-repeat}
+	.panel-box .black-box{background:#000;opacity: 0.6;width:100%;height: 100%;position: absolute;-webkit-transition: all .5s linear;-moz-transition: all .5s linear;-ms-transition: all .5s linear;-o-transition: all .5s linear;transition: all .5s linear;}
+	.panel-box .red-box{overflow:hidden;opacity: 0;background:#DE3728;width:100%;height: 50%;position: absolute;-webkit-transition: all .5s linear;-moz-transition: all .5s linear;-ms-transition: all .5s linear;-o-transition: all .5s linear;transition: all .5s linear;}
+	.panel-box span{position: absolute;color: #fff;font-size: 18px;top: 50%;text-align: center; margin-top: -25px;line-height: 30px;-webkit-transition: all .5s linear;-moz-transition: all .5s linear;-ms-transition: all .5s linear;-o-transition: all .5s linear;transition: all .5s linear;}
+	.panel-box.on span{margin-top: 60px;}
+	.panel-box.on .red-box{bottom: 0;opacity: 1;}
+	.panel-box.on  .black-box{opacity: 0;}
+	
+	/*顶部*/
+	.dTabcon0{background:#483A3A;height: 300px;padding: 10px 0;}
+	.dTabcon0 .con{width: 1200px;margin: 0 auto;position: relative;}
+	.dTabcon0 .con .pImg span {
+	    position: absolute;
+	    display: block;
+	    width: 280px;
+	    height: 280px;
+	    background: #fff;
+	    opacity: 0;
+	    -webkit-border-radius: 140px;
+	    border-radius: 140px;
+	} 
+	.dTabcon0 .con .pImg img {
+	    position: absolute;
+	    display: block;
+	    width: 280px;
+	    height: 280px;
+	    z-index: 3;
+	    -webkit-border-radius: 140px;
+	    border-radius: 140px;
+	}
+	 .dTabcon0 .current .pImg .s_1 {
+	    -webkit-animation: tabcon0cimgspan 1s linear;
+	    animation: tabcon0cimgspan 1s linear;
+	}
+	 .dTabcon0 .current .pImg .s_2 {
+	    -webkit-animation: tabcon0cimgspan 1.7s linear;
+	    animation: tabcon0cimgspan 1.7s linear;
+	}
+	.dTabcon0 .current .pImg .s_3 {
+	    -webkit-animation: tabcon0cimgspan 2.4s linear;
+	    animation: tabcon0cimgspan 2.4s linear;
+	}
+
+	/*顶部图片的动画*/
+	@keyframes tabcon0cimgspan{
+		0%{-webkit-transform:scale(0,0);transform:scale(0,0);opacity:.3}
+		60%{-webkit-transform:scale(0,0);transform:scale(0,0)}
+		75%{-webkit-transform:scale(1.2,1.2);transform:scale(1.2,1.2)}
+		95%{-webkit-transform:scale(1,1);transform:scale(1,1);opacity:.3}
+		100%{opacity:0}}
+
+	.con-txt{position:absolute;width: 400px;height: 300px;background:rgba(255,255,255,0.6);right: 150px;border-radius: 10px;box-shadow: 2px 2px 2px 2px #868080;}
+	.con-txt p{font-size: 18px;font-family:"Microsoft Yahei";line-height: 30px;color: #010101;text-align: center;vertical-align: middle;margin-top: 100px;}
+
+
+	.footer{margin-top: 100px;}
+	</style>
+
+</head>
+<body>
+
+		<!-- 下载顶条 -->
+		<div id="download_stick">
+		    <div class="stick_con">
+		        <span class="stick_logo"></span>
+		        <a href="http://App-down.x.netease.com/download/game/gamer/channel/gw?type=android" target="_blank" class="android"></a>
+		        <a href="http://App-down.x.netease.com/download/game/gamer/channel/gw?type=ios" target="_blank" class="app_store"></a>
+		    </div>
+		</div>
+
+		<!-- 顶部 -->
+		<div class="dTabcon0" id="tabcon-0">
+			<div class="con current">
+	            <p class="pImg">
+	                <span class="s_1"></span>
+	                <span class="s_2"></span>
+	                <span class="s_3"></span>
+	                <img src="images/xiongmao_01dbeb3.png">
+	            </p>
+	            <div class="con-txt">
+	            	<p>
+	            		华盛顿给回复时候第三方刚好是地雷复合<br>
+	            		科技部分GV不能看见了包括基本<br>
+	            		吧好吧的防水功能包括第三方
+	            	</p>
+	            </div>
+	        </div>
+		</div>
+		
+		<!-- 图片信息流 -->
+		<div class="pic-h">
+			<div class="pic-item">
+				<a href="#"><img src="images/game-pic/game-pic_02.png" alt=""></a>
+				<div class="p-item-txt">
+					<p class="p-tt">技能名称</p>
+					<p><span>被动：火铳发射霰弹，每颗弹丸命中敌方英雄会给刘备叠加双抗，持续6秒，可叠加20层</span></p>
+
+				</div>
+			</div>
+			<div class="pic-item">
+				<a href="#"><img src="images/game-pic/game-pic_02.png" alt=""></a>
+				<div class="p-item-txt">
+					<p class="p-tt">技能名称</p>
+					<p><span>被动：火铳发射霰弹，每颗弹丸命中敌方英雄会给刘备叠加双抗，持续6秒，可叠加20层</span></p>
+
+				</div>
+			</div>
+			<div class="pic-item">
+				<a href="#"><img src="images/game-pic/game-pic_01.png" alt=""></a>
+				<div class="p-item-txt">
+					<p class="p-tt">技能名称</p>
+					<p><span>被动：火铳发射霰弹，每颗弹丸命中敌方英雄会给刘备叠加双抗，持续6秒，可叠加20层</span></p>
+
+				</div>
+			</div>
+			<div class="pic-item">
+				<a href="#"><img src="images/game-pic/game-pic_03.png" alt=""></a>
+				<div class="p-item-txt">
+					<p class="p-tt">技能名称</p>
+					<p><span>被动：火铳发射霰弹，每颗弹丸命中敌方英雄会给刘备叠加双抗，持续6秒，可叠加20层</span></p>
+
+				</div>
+			</div>
+			<div class="pic-item">
+				<a href="#"><img src="images/game-pic/game-pic_04.png" alt=""></a>
+				<div class="p-item-txt">
+					<p class="p-tt">技能名称</p>
+					<p><span>被动：火铳发射霰弹，每颗弹丸命中敌方英雄会给刘备叠加双抗，持续6秒，可叠加20层</span></p>
+
+				</div>
+			</div>
+			<div class="pic-item">
+				<a href="#"><img src="images/game-pic/game-pic_02.png" alt=""></a>
+				<div class="p-item-txt">
+					<p class="p-tt">技能名称</p>
+					<p><span>被动：火铳发射霰弹，每颗弹丸命中敌方英雄会给刘备叠加双抗，持续6秒，可叠加20层</span></p>
+
+				</div>
+			</div>
+			<div class="pic-item">
+				<a href="#"><img src="images/game-pic/game-pic_01.png" alt=""></a>
+				<div class="p-item-txt">
+					<p class="p-tt">技能名称</p>
+					<p><span>被动：火铳发射霰弹，每颗弹丸命中敌方英雄会给刘备叠加双抗，持续6秒，可叠加20层</span></p>
+
+				</div>
+			</div>
+			<div class="pic-item">
+				<a href="#"><img src="images/game-pic/game-pic_03.png" alt=""></a>
+				<div class="p-item-txt">
+					<p class="p-tt">技能名称</p>
+					<p><span>被动：火铳发射霰弹，每颗弹丸命中敌方英雄会给刘备叠加双抗，持续6秒，可叠加20层</span></p>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="clearfix"></div>
+
+		<!-- 图片滑动 -->
+		 <div class="md  features" id="features">
+            <ul class="md-ul">
+                <li class="md-ul-li1">
+                    <b></b>
+                </li>
+                <li class="md-ul-li2">
+                    <b></b>
+                </li>
+                <li class="md-ul-li3">
+                    <b></b>
+                </li>
+                <li class="md-ul-li4">
+                    <b></b>
+                </li>
+                <li class="md-ul-li5 on">
+                    <b></b>
+                </li>
+                <div class="xiongmao">
+                </div>
+            </ul>
+        </div>
+
+        <!-- 阴影 -->
+        <div class="panel-con">
+        	<div class="panel-box">
+        		<em class="bg1"></em>
+        		<em class="black-box"></em>
+        		<em class="red-box"></em>
+        		<span>
+        			是否够不上了看见你看你<br>
+        			数据库的法律不能<br>
+        		</span>
+        	</div>
+        	<div class="panel-box">
+        		<em class="bg2"></em>
+        		<em class="black-box"></em>
+        		<em class="red-box"></em>
+        		<span>
+        			是否够不上了看见你看你<br>
+        			数据库的法律不能<br>
+        		</span>
+        	</div>
+        	<div class="panel-box">
+        		<em class="bg3"></em>
+        		<em class="black-box"></em>
+        		<em class="red-box"></em>
+        		<span>
+        			是否够不上了看见你看你<br>
+        			数据库的法律不能<br>
+        		</span>
+        	</div>
+        	<div class="panel-box">
+        		<em class="bg4"></em>
+        		<em class="black-box"></em>
+        		<em class="red-box"></em>
+        		<span>
+        			是否够不上了看见你看你<br>
+        			数据库的法律不能<br>
+        		</span>
+        	</div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="footer"></div>
+<script src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script> 
+<script type="text/javascript">	
+	$(window).scroll(function(){$(window).scrollTop()>200?$("#download_stick").show():$("#download_stick").hide()});
+	$(".md-ul li").mouseover(function(){$(".md-ul li.on").removeClass("on"),$(this).addClass("on")});
+	$(".panel-box").mouseover(function(){
+		$(this).addClass("on").siblings().removeClass("on");
+	})
+
+</script>
+</body>
+</html>

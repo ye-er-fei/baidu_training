@@ -1,0 +1,550 @@
+  
+body{font:normal 100% "Microsoft Yahei",Helvetica, Arial, sans-serif;line-height:20px;height:100%;position:relative;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;outline:0;}
+
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+li{list-style:none;}
+caption,th{text-align:left;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+input,textarea,select,button{font-family:"Microsoft Yahei";font-size:inherit;font-weight:inherit;outline:none;}
+input,textarea,select{*font-size:100%;resize:none;}
+legend{color:#000;}
+b{font-weight:normal;}
+a{text-decoration:none;color:#2a5295;cursor:pointer;}
+li a:hover,span a:hover{text-decoration:none;}
+a.normal{font-size:12px;color:#333;text-decoration:none;}
+a:hover,a:active,a:focus,a:link {outline: none;text-decoration:none;}
+　h1 {
+　　　　font-size: 1.5em;
+　　}
+small {
+　　　　font-size: 0.875em;
+　　}
+img {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+    max-width: 100%;
+}
+.clearfix
+{
+	clear: both;
+}
+.laycolor
+{
+	background-color: #e9f6ff;
+}
+.layout
+{
+	margin:0 auto;
+	padding: 0;
+	max-width: 1000px;
+
+}
+.layout .header
+{
+	max-width: 1000px;
+	max-height: 500px;
+	overflow: hidden;
+}
+.layout .header img
+{
+	width: 100%;
+}
+.load
+{
+
+	position: relative;
+	width: 100%;
+
+}
+.load .icon-t
+{
+	max-width: 140px;
+	max-height: 140px;
+	float: left;
+	width: 25%;
+	overflow: hidden;
+	margin:10px;
+
+}
+.load .icon-t img
+{
+	float: left;
+	width: 100%;
+
+}
+.txt-t
+{
+	width: 40%;
+	float: left;
+}
+.txt-t p
+{
+	font-size:1.6em;
+	color: #000;
+	border-bottom: 1px solid #d1d1d1;
+	padding: 0.6em 0;
+}
+.txt-t span
+{
+	line-height: 25px;
+}
+.load-btn {
+    margin: 10px 0px;
+    width: 25%;
+    max-width: 210px;
+    position: absolute;
+    right: 20px;
+}
+
+.load-btn img {
+    padding: 5px 0;
+    width: 100%;
+}
+
+
+
+.notice-box 
+{
+	background: #565962;
+	padding-bottom: 50px;
+}
+.N-detail
+{
+	min-height: 300px;
+}
+.notice-box{
+	clear: both;
+	min-height: 140px;
+	display: block;
+	border-bottom: 1px solid #2c2c2e;
+	position: relative;
+}
+.not-t > p 
+{
+	background: #000 none repeat scroll 0 0;
+	color: #fff;
+	font-size: 16px;
+	padding: 10px;
+	text-align: center;
+}
+.news-t
+{
+	width: 18%;
+	float: left;
+}
+.news-t ul
+{
+	margin: 10px 0 0 10px;
+}
+.news-t li
+{
+	background: url(../images/icon-b.png)no-repeat;
+	background-size: 100%;
+	width: 58px;
+	height: 30px;
+	margin: 12px 0;
+}
+.news-t li.active
+{
+	background: url(../images/icon-a.png)no-repeat;
+	background-size: 100%;
+}
+.news-t .t-cc 
+{
+    color: #fff;
+    font-size: 15px;
+    padding: 0 12px;
+    line-height: 29px;
+
+}
+.new-c
+{
+	display: none;
+	padding: 10px;
+	min-height: 185px;
+}
+.new-c.active
+{
+	display: block;
+}
+.news-cont
+{
+	width: 78%;
+	float: left;
+	background: #fff;
+	margin: 10px 10px 0 0;
+}
+.txt-L li
+{
+	color: #000;
+	font-size: 12px;
+	line-height: 23px;
+}
+.txt-L li span
+{
+	float: left;
+}
+.txt-L li:hover
+{
+	color: #4c4949;
+}
+.txt-L li span.left
+{
+	display:block;/*内联对象需加*/
+    width:16em;
+    word-break:keep-all;/* 不换行 */
+    white-space:nowrap;/* 不换行 */
+    overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */
+    text-overflow:ellipsis;/* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+}
+.txt-L li span.right
+{
+	float: right;
+}
+
+.contact
+{
+	border-top: 1px dashed #ccc;
+	text-align: center;
+}
+.contact p
+{
+	color: #fff;
+	font-size: 18px;
+}
+.erm-pic
+
+{
+	width: 100px;
+	height: 100px;
+	margin: 30px auto;
+}
+
+
+.footer {
+    min-height: 110px;
+    max-width:640px;
+    margin: 0 auto; 
+}
+.fot-logo {
+    float: left;
+    margin: 20px 0;
+    width: 25%;
+    padding: 0 15px;
+    max-width: 116px;
+}
+.fot-logo > img {
+    width: 100%;
+}
+.addr {
+    float: left;
+    margin: 20px 0;
+    padding-left: 5px;
+    width: 65%;
+    border-left: 1px solid #c3c3c3;
+}
+.addr > p {
+    font-size: 12px;
+    color: #010101;
+}
+
+@media screen and (min-width:414px) and(max-width:590px) {
+	.txt-L li
+	{
+		color: #000;
+		font-size: 18px;
+		line-height: 30px;
+	}
+}
+ @media screen and (min-width:320px) and (max-width: 375px) { 
+    .txt-t p
+{
+	font-size:1.2em;
+	color: #000;
+	border-bottom: 1px solid #d1d1d1;
+	padding: 0.4em 0;
+}
+.txt-t span
+{
+	line-height: 25px;
+	font-size: 12px;
+}
+.txt-L li span.left
+{
+	display:block;
+    width:10em;
+    word-break:keep-all;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.news-cont
+{
+	width: 75%;
+	float: left;
+	background: #fff;
+	margin: 10px 10px 0 10px;
+}
+.addr {
+    float: left;
+    margin: 20px 0;
+    padding-left: 5px;
+    width: 60%;
+    border-left: 1px solid #c3c3c3;
+}
+
+} 
+
+
+/*newslist*/
+.p-header
+{
+	background: #b0dcfa;
+	min-height: 100px;
+}
+.logohero
+{
+	background: url(../images/p-common.png)no-repeat;
+	width: 80px;
+	height: 84px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+.logo
+{ 
+	background: rgba(0, 0, 0, 0) url(../images/p-common.png) no-repeat scroll -85px 0;
+    height: 80px;
+    width: 120px;
+    float: left;
+   margin-top: 5px;
+	margin-left: 5px;
+}
+.load-btn-t
+{
+	width: 100px;
+	height: 50px;
+	float: right;
+	margin-top: 25px;
+	background-size: 100%;
+}
+.V-header
+{
+    max-height: 227px;
+    position: relative;
+    background-size: 100%;
+    overflow: hidden;
+}
+.V-return
+{
+    height: 40px;
+    left: 10px;
+    position: absolute;
+    top: 10px;
+    width: 110px;
+}
+
+.V-title
+{
+	text-align: center;
+    color: red;
+    font-size: 1.5em;
+    padding: 15px;
+}
+.p-news-t ul {
+    height: 36px;
+    margin-left: 5px;
+}
+.p-news-t li {
+    background-color: #172e49;
+    border: 1px solid #000;
+    float: left;
+    width: 24%;
+    text-align: center;
+    height: 100%;
+    line-height: 33px;
+    color: #fff;
+}
+.p-news-cont
+{
+	margin-top: 20px;
+}
+.p-news-t li.active
+{
+    background-color: #e83b2a;
+}
+.p-news-t li:hover
+{
+    background-color: #e83b2a;
+    
+}
+.p-txt li img
+{
+	line-height: 30px;
+	float: left;
+}
+.p-txt li
+{
+	font-size: 12px;
+	color: #3f3f3f;
+	line-height: 25px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ccc;
+}
+.p-txt li:hover
+{
+	color: #000;
+}
+.p-txt li span.right
+{
+	float: right;
+}
+
+.g-pagenation {
+    text-align: center;
+}
+.pagination-tab {
+    border-radius: 4px;
+    display: inline-block;
+    padding-left: 0;
+}
+.pagination-tab li {
+    float: left;
+    line-height: 40px;
+    padding: 5px;
+}
+.pagination-tab  li a
+{
+    font-size: 20px;
+    color: #666565;
+}
+.pagination-tab  li.active a
+{
+    color: #010101;
+}
+.left-btn
+{
+   display: block;
+   height: 75px;
+   width: 75px;
+}
+.right-btn
+{
+   display: block;
+   height: 75px;
+   width: 75px;
+}
+.V-contact {
+    border-top: 1px dashed #aaa;
+    margin-bottom: 90px;
+    text-align: center;
+}
+.erm-img {
+    margin: 30px auto;
+    width: 80px;
+}
+.V-contact > p {
+    color: #010101;
+    font-size: 20px;
+}
+
+.footer-p
+{
+	background: #565962;
+	height: 120px;
+    min-height: 110px;
+    max-width:1000px;
+    margin: 0 auto; 
+
+}
+.addr-p {
+    float: left;
+    margin: 20px 0;
+    padding-left: 5px;
+    width: 63%;
+    border-left: 1px solid #c3c3c3;
+}
+.addr-p > p {
+    font-size: 12px;
+    color: #fff;
+}
+
+/*newsdetails*/
+.D-title p
+{
+	color: #d6452a;
+}
+.D-title
+{
+	text-align: center;
+    color: red;
+    font-size: 1.5em;
+    padding: 15px;
+}
+
+.D-detail {
+    margin: -3px auto;
+    max-width: 1000px;
+    background-color: #565962;
+}
+.PP-detail
+{
+	background: #fff;
+    width: 90%;
+    margin: 20px auto;
+}
+.t-detail
+{
+	min-height: 400px;
+	padding: 5px;
+}
+.N-dt
+{
+	text-align: center;
+	padding:10px 0;
+}
+.N-dt h2
+{
+	font-size: 18px;
+}
+.N-dt span{
+	color: #a09f9f;
+	font-size: 14px;
+}
+.N-dc p,.N-dt p
+{
+	text-indent: 2em;
+}
+.N-dc
+{
+	border-top: 1px solid #a09f9f;
+	font-size: 12px;
+	line-height:28px;
+
+}
+.N-da>p
+{
+	color: #ff0101;
+}
+.footer-D
+{
+	background: #fff;
+	height: 120px;
+    min-height: 110px;
+    max-width:1000px;
+    margin: 0 auto; 
+
+}
+

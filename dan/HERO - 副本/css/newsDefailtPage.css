@@ -1,0 +1,102 @@
+body{background-color: #000;}
+.layout
+{
+    width: 1000px;
+    margin: 0 auto;
+    padding:0;
+}
+.V-header
+{
+    background: url(../images/view-pic/top-bg.png) no-repeat scroll  50% 50%;
+    height: 295px;
+    position: relative;
+}
+.V-return
+{
+    background:rgba(0, 0, 0, 0) url("../images/view-pic/common.png") no-repeat scroll -4px -4px;
+    height: 75px;
+    left: 100px;
+    position: absolute;
+    top: 50px;
+    width: 205px;
+}
+
+.V-detail {
+    margin: 100px 0;
+    position: relative;
+}
+.N-detail {
+    margin: 100px auto;
+    width: 1000px;
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+.V-detail .V-title {
+    background: rgba(0, 0, 0, 0) url("../images/game-pic/common.png") no-repeat scroll -4px -177px;
+    height: 82px;
+    margin-left: 355px;
+    width: 302px;
+}
+.N-dt,.N-dc
+{
+    width: 650px;
+    margin: 0 auto;
+}
+.N-dt {
+    border-bottom: 1px dashed #aaa;
+    padding: 50px 0;
+    text-align: center;
+}
+.N-dt h2 {
+    color: #000;
+    font-size: 36px;
+    padding-bottom: 30px;
+}
+.N-dt > span {
+    color: #a09f9f;
+    font-size: 18px;
+}
+
+.N-dc {
+    color: #a09f9f;
+    font-size: 18px;
+    margin-top:50px; 
+}
+.N-dc > p {
+    line-height: 30px;
+    text-indent: 2em;
+}
+
+.N-da {
+    margin: 40px auto;
+    width: 600px;
+}
+.N-da > p {
+    color: red;
+    padding: 20px 0;
+}
+.N-da ul 
+{
+    margin-bottom:50px; 
+}
+.N-da li p {
+    line-height: 30px;
+    padding: 5px;
+}
+.V-contact-d > p {
+    color: #fff;
+    font-size: 40px;
+}
+.V-contact-d {
+    border-top: 1px dashed #aaa;
+    margin-bottom: 90px;
+    text-align: center;
+}
+.erm-img {
+    margin: 60px auto;
+    width: 200px;
+}
+
+
+
+

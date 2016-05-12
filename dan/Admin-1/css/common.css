@@ -1,0 +1,124 @@
+.form-group {
+    margin: 10px 0;
+    clear: both;
+}
+
+.control-label {
+    float: left;
+    margin-right: 10px;
+    text-align: right;
+    width: 100px;
+}
+input.form-control {
+    height: 25px;
+    width: 150px;
+}
+textarea#autoResizeTA {
+    resize:both;
+}
+select#selectAT
+{
+	width: 100px;
+	height: 25px;
+}
+.radio > label {
+    float: left;
+    margin: 0 5px;
+}
+.checkbox  label {
+    float: left;
+    margin: 0 5px;
+}
+
+
+
+.panel-control {
+    float: left;
+    font-size: 14px;
+    line-height: 25px;
+    margin-right: 10px;
+}
+
+.panel-item {
+    line-height: 25px;
+}
+.panel-item > input {
+    border: 1px solid #aaa;
+    line-height: 25px;
+    margin: 0 10px;
+    padding: 0 3px;
+}
+/*.panel-cont {
+    width: 600px;
+    border: 1px solid #ddd;
+    padding: 20px;
+}*/
+.table {
+    background-color: #fcfcfc;
+    box-shadow: 0 3px 0 rgba(12, 12, 12, 0.03);
+}
+.table-bordered {
+    border: 1px solid #ddd;
+}
+.table {
+    margin-bottom: 20px;
+    max-width: 100%;
+    width: 100%;
+}
+
+.table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td {
+    border-color: #eee;
+    padding: 10px;
+}
+.table thead > tr > th {
+    background-color: #fff;
+    border-color: #eee;
+    color: #444;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+.table thead > tr > th, .table tbody > tr > td
+{
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.panel-body {
+    margin: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.g-pagenation {
+    text-align: center;
+}
+.pagination-tab {
+    border-radius: 4px;
+    display: inline-block;
+    margin: 20px 0;
+    padding-left: 0;
+}
+.pagination-tab  li {
+    
+    float: left;
+    line-height: 88px;
+    margin: 5px;
+    padding: 5px;
+}
+.pagination-tab  li a
+{
+    font-size: 20px;
+    color: #666565;
+}
+.pagination-tab  li.active a
+{
+    color: #010101;
+}

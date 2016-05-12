@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<title>Admin</title>
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/common.js"></script>
+
+</head>
+<body>
+	<div class="layout">
+		<div class="panel">
+			<div class="panel-hearding">
+				<p class="panel-title">后台工具</p>
+				<ul>
+					<li><span class="data">2016-03-25</span></li>
+					<li><span class="time">10:54:22</span></li>
+					<li><span class="manage">管理员：<em>GM1</em></span></li>
+					<li><a class="out" href>退出</a></li>
+				</ul>
+			</div>
+			<div class="tab-body">
+				<div class="annoucement">
+					<div class="a-left">
+						<ul>
+							<li id="tab1" class="active">操作记录</li>
+							<li id="tab2">公告发送</li>
+							<li id="tab3">邮件发送</li>
+						</ul>
+					</div>
+					<div class="a-right">
+						<div id="tab01" class="tt-b active">
+							<table class="table table-bordered " border=1>
+								<thead>
+									<tr>
+										<th class="numb">账号</th>
+										<th>操作类型</th>
+										<th>时间</th>
+										<th>详细信息</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>GM1</td>
+										<td>公告发放</td>
+										<td>2016-3-21 10:54:55</td>
+										<td>全服公告：“欢迎来到天天大冒险世界”</td>
+									</tr>
+									<tr>
+										<td>GM2</td>
+										<td>公告发放</td>
+										<td>2016-3-21 10:54:55</td>
+										<td>全服公告：“欢迎来到天天大冒险世界”</td>
+									</tr>
+									<tr>
+										<td>GM3</td>
+										<td>公告发放</td>
+										<td>2016-3-21 10:54:55</td>
+										<td>全服公告：“欢迎来到天天大冒险世界”</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div id="tab02" class="tt-b ">
+							<div class="a-title"><p>公告</p></div>
+							<div class="a-content">
+								<textarea rows="10">请输入内容···</textarea>
+
+							</div>
+							<div class="a-btn"><button type="button">发送</button></div>
+
+						</div>
+						<div id="tab03" class="tt-b ">
+							<form>
+							<div class="e-left">
+								<ul>
+									<li>
+										<span>类型</span>
+										<select name="leixing">
+											<option value="全服玩家" selected="selected">全服玩家</option>
+											<option value="制定玩家" >指定玩家</option>
+										</select>
+									</li>
+									<li>
+										<span>标题</span>
+										<input type="text">
+									</li>
+									<li>
+										<span>内容</span>
+										<textarea  cols="18" rows="10">请输入邮件内容</textarea>
+									</li>
+								</ul>
+							</div>
+							<div class="e-right">
+								<div class="e-js">
+									<div class="e-f1">
+										<span>角色名称<small>（名称之间以， 隔开最多30个）</small></span>
+										<textarea  rows="3">请输入玩家名称···</textarea>
+									</div>
+									<div class="clearfix"></div>
+									<div >
+										<div class="e-t-l">
+											<ul>
+												<li>
+													<span>附件类型</span>
+													<select >
+														<option value="" selected="selected">货币</option>
+														<option value="">2</option>
+														<option value="">3</option>
+													</select>
+												</li>
+												<li>
+													<span>附件ID</span>
+													<select >
+														<option value="" selected="selected">货币</option>
+														<option value="">2</option>
+														<option value="">3</option>
+													</select>
+												</li>
+												<li>
+													<span>附件数量</span>
+													<div>
+														<button type="button">-</button>
+														<input type="text" style="width:50px;height:22px;float:left">
+														<button type="button">+</button>
+													</div>
+													
+												</li>
+												<li>
+													<textarea  rows="5"></textarea>
+													<p><button class="delet" type="button">-</button><button class="add" type="button">+</button></p>
+												</li>
+											</ul>
+										</div>
+										<div class="e-t-r" >
+											<table class="table table-bordered " border=1>
+												<thead>
+													<tr>
+														<th>物品ID</th>
+														<th>物品名称</th>
+														<th>道具描述</th>
+													</tr>
+													<tr>
+														<td>1231</td>
+														<td>小金币袋</td>
+														<td>产出少量金币</td>
+													</tr>
+													<tr>
+														<td>1231</td>
+														<td>小金币袋</td>
+														<td>产出少量金币</td>
+													</tr>
+												
+													<tr>
+														<td>1231</td>
+														<td>小金币袋</td>
+														<td>产出少量金币</td>
+													</tr>
+													<tr>
+														<td>1231</td>
+														<td>小金币袋</td>
+														<td>产出少量金币</td>
+													</tr>
+												
+													<tr>
+														<td>1231</td>
+														<td>小金币袋</td>
+														<td>产出少量金币</td>
+													</tr>
+													<tr>
+														<td>1231</td>
+														<td>小金币袋</td>
+														<td>产出少量金币</td>
+													</tr>
+													<tr>
+														<td>1231</td>
+														<td>小金币袋</td>
+														<td>产出少量金币</td>
+													</tr>
+													
+												</thead>
+											</table>
+											<table class="table table-bordered " border=1>
+												<thead>
+													<tr>
+														<th>物品ID</th>
+														<th>物品名称</th>
+														<th>道具描述</th>
+													</tr>
+													<tr>
+														<td>1231</td>
+														<td>小金币袋</td>
+														<td>产出少量金币</td>
+													</tr>
+													<tr>
+														<td>1231</td>
+														<td>小金币袋</td>
+														<td>产出少量金币</td>
+													</tr>
+												
+													<tr>
+														<td>1231</td>
+														<td>小金币袋</td>
+														<td>产出少量金币</td>
+													</tr>
+													<tr>
+														<td>1231</td>
+														<td>小金币袋</td>
+														<td>产出少量金币</td>
+													</tr>
+												
+													<tr>
+														<td>1231</td>
+														<td>小金币袋</td>
+														<td>产出少量金币</td>
+													</tr>
+													<tr>
+														<td>1231</td>
+														<td>小金币袋</td>
+														<td>产出少量金币</td>
+													</tr>
+													<tr>
+														<td>1231</td>
+														<td>小金币袋</td>
+														<td>产出少量金币</td>
+													</tr>
+													
+												</thead>
+											</table>
+											
+											</div>
+											<p><button type="button" >发送</button></p>
+										</div>	
+								</div>
+							</div>
+						</form>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>

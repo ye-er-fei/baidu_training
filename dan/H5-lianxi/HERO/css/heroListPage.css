@@ -1,0 +1,100 @@
+
+.layout {
+
+    height: 800px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    width: 1200px;
+}
+.V-header
+{
+    background: url(../images/hero-pic/h-bg.png) no-repeat scroll  50% 50%;
+    height: 1075px;
+    position: relative;
+}
+.V-return
+{
+    background:rgba(0, 0, 0, 0) url("../images/view-pic/common.png") no-repeat scroll -4px -4px;
+    height: 75px;
+    left: 100px;
+    position: absolute;
+    top: 50px;
+    width: 205px;
+}
+
+.V-detail {
+    position: relative;
+}
+
+
+.V-detail .V-title {
+    background: rgba(0, 0, 0, 0) url("../images/game-pic/common.png") no-repeat scroll 0 -259px;
+    height: 82px;
+    margin-left: 455px;
+    width: 302px;
+}
+.N-detail {
+    width: 1200px;
+    position: relative;
+}
+.hero-left
+{
+    width: 700px;
+    position: relative;
+    z-index: 20;
+}
+.hero-t {
+    position: absolute;
+    top: 50px;
+    
+}
+.hero-p
+{
+    width: 500px;
+    float: right;
+    position: relative;
+}
+.hero-p img
+{
+    width: 100%;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    -webkit-transform:scale(0.5, 0.5); 
+    transform:scale(0.5, 0.5);
+    transition:all 1s;
+}
+.hero-p img.active
+{
+    opacity: 1;
+    -webkit-transform:scale(1, 1); 
+    transform:scale(1, 1); 
+    transition-delay:0.5s;
+}
+
+.slow {
+    color: #fff;
+    font-size: 16px;
+    left: 50px;
+    position: absolute;
+    top: 67px;
+    display: none;
+}
+
+
+
+.hero-t li {
+    cursor: pointer;
+    float: left;
+    position: relative;
+}
+.hero-t li img.light-icon {
+opacity: 0.5;
+}
+.hero-t li.active img.light-icon {
+opacity: 1;
+}
+.hero-t li img.light-icon:hover {
+opacity: 1;
+}
